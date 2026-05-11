@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mogul-mvp-be-marketplace-deployment
+  namespace: mogul-dev
+  labels:
+    app: mogul-mvp-be-marketplace
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mogul-mvp-be-marketplace
+  template:
+    metadata:
+      labels:
+        app: mogul-mvp-be-marketplace
+    spec:
+      volumes:
+      - configMap:
+          items:
+          - key: .env
+            path: .env
+          name: mogul-mvp-be-marketplace
+        name: dot-env
+
+      containers:
+      - name: mogul-mvp-be-marketplace
+        image: 671826480772.dkr.ecr.us-east-1.amazonaws.com/mogul-mvp-be-marketplace-dev:latest
+        ports:
+        - containerPort: 5001
+          protocol: TCP
+        volumeMounts:
+        - name: dot-env
+          mountPath: /usr/src/app/.env
+          name: dot-env
+          subPath: .env
+
