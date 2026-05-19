@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Connecticut residential comparables",
+    "baths": 2,
+    "beds": 3,
+    "priceSold": 710000,
+    "sqFt": 1798,
+    "dateSold": { "$date": "2026-04-03T11:39:00.000Z" },
+    "isLease": true,
+    "monthlyRent": 3500,
+    "properties": [
+      { "$oid": "6a05731a2caf888f226dda33" },
+      { "$oid": "6a057ab30a3adcc38fc57706" }
+    ],
+    "createdAt": { "$date": "2026-05-18T00:00:00.000Z" },
+    "updatedAt": { "$date": "2026-05-18T00:00:00.000Z" }
+  },
+  {
+    "name": "Florida properties comparables",
+    "baths": 2,
+    "beds": 2,
+    "priceSold": 636480,
+    "sqFt": 1073,
+    "dateSold": { "$date": "2025-01-27T16:52:00.000Z" },
+    "isLease": true,
+    "monthlyRent": 3675,
+    "properties": [
+      { "$oid": "6a01ba52575593a598d1cdf6" },
+      { "$oid": "6a045d632caf888f226dd2df" }
+    ],
+    "createdAt": { "$date": "2026-05-18T00:00:00.000Z" },
+    "updatedAt": { "$date": "2026-05-18T00:00:00.000Z" }
+  },
+  {
+    "name": "Single family / townhouse comparables",
+    "baths": 2,
+    "beds": 4,
+    "priceSold": 520000,
+    "sqFt": 2400,
+    "dateSold": { "$date": "2026-05-12T13:42:00.000Z" },
+    "isLease": false,
+    "monthlyRent": 3850,
+    "properties": [
+      { "$oid": "69fdad6502620a22aa773e12" },
+      { "$oid": "6a02e00b434d5843cf15338d" },
+      { "$oid": "6a0457f62caf888f226dd292" }
+    ],
+    "createdAt": { "$date": "2026-05-18T00:00:00.000Z" },
+    "updatedAt": { "$date": "2026-05-18T00:00:00.000Z" }
+  },
+  {
+    "name": "Premium residences comparables",
+    "baths": 2,
+    "beds": 3,
+    "priceSold": 520000,
+    "sqFt": 2058,
+    "dateSold": { "$date": "2018-05-04T12:01:00.000Z" },
+    "isLease": true,
+    "monthlyRent": 3850,
+    "properties": [
+      { "$oid": "6a042351434d5843cf15387a" },
+      { "$oid": "6a0457f62caf888f226dd292" },
+      { "$oid": "6a02e00b434d5843cf15338d" }
+    ],
+    "createdAt": { "$date": "2026-05-18T00:00:00.000Z" },
+    "updatedAt": { "$date": "2026-05-18T00:00:00.000Z" }
+  }
+]

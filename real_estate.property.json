@@ -1,0 +1,3586 @@
+[{
+  "_id": {
+    "$oid": "69fdad6502620a22aa773e12"
+  },
+  "attom": {
+    "attomId": 239936,
+    "apn": "1-1054-0004-0017-0",
+    "lotsize1": 0.826,
+    "lotsize2": 36000,
+    "area": 2378,
+    "lotnum": "17,18",
+    "blockNumber": "4",
+    "country": "US",
+    "state": "WY",
+    "city": "CHEYENNE",
+    "areaTaxCode": "0102",
+    "line1": "252 E IDAHO ST",
+    "line2": "CHEYENNE, WY 82009",
+    "zipCode": "82009",
+    "latitude": "41.208169",
+    "longitude": "-104.825690",
+    "propertyClass": "Single Family Residence / Townhouse",
+    "propertyType": "SFR",
+    "yearBuilt": 1978,
+    "bathTotal": 2,
+    "levels": 1,
+    "avmamountchange": 100,
+    "avmlastmonthvalue": 1000,
+    "avmpercentchange": 20,
+    "bedrooms": 5,
+    "locationType": "VIEW"
+  },
+  "otherInfo": {
+    "isOccupied": false,
+    "tags": [],
+    "pool": false,
+    "fireplace": false,
+    "garage": false,
+    "isTrending": false,
+    "isHidden": true,
+    "_manager": {
+      "$oid": "69fd6865da8ad702d48084e2"
+    },
+    "_market": {
+      "$oid": "69fc5f49c58ca660788493f3"
+    },
+    "_owner": {
+      "$oid": "69fd6b6025f8a12230770fca"
+    },
+    "checkoutDescription": "testing",
+    "checkoutHeading": "testing",
+    "financedByImage": {
+      "_id": {
+        "$oid": "69fdadbd02620a22aa773e2e"
+      },
+      "createdAt": {
+        "$date": "2026-05-08T09:32:45.234Z"
+      },
+      "contentType": "image/png",
+      "key": "Screenshot 2025-05-24 103547.png",
+      "path": "images/flxqpo9n8ea7bglznzng",
+      "url": "https://res.cloudinary.com/adil1010/image/upload/v1778232752/images/flxqpo9n8ea7bglznzng.png",
+      "sizeInMegaByte": 1940480
+    },
+    "financedByName": "candour",
+    "firstDividendsDate": {
+      "$date": "2026-05-29T09:32:00.000Z"
+    },
+    "interestRate": 10,
+    "loanTerm": 30,
+    "managedByImage": {
+      "_id": {
+        "$oid": "69fdadbd02620a22aa773e2f"
+      },
+      "createdAt": {
+        "$date": "2026-05-08T09:32:45.236Z"
+      },
+      "contentType": "image/png",
+      "key": "Screenshot 2025-05-25 075410.png",
+      "path": "images/z8mhrnsptsfc8gzjimee",
+      "url": "https://res.cloudinary.com/adil1010/image/upload/v1778232754/images/z8mhrnsptsfc8gzjimee.png",
+      "sizeInMegaByte": 728228
+    },
+    "managedByName": "candour",
+    "occupiedLabel": "test",
+    "purchaseDate": {
+      "$date": "2026-05-04T09:32:00.000Z"
+    },
+    "quote": "testing",
+    "statusDescription": "testing",
+    "title": "Omega 2",
+    "description": "<p>testing</p>",
+    "estateId": "3"
+  },
+  "financials": {
+    "contingencyVar1": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "69fdad6502620a22aa773e0b"
+      }
+    },
+    "contingencyVar2": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "69fdad6502620a22aa773e0c"
+      }
+    },
+    "contingencyVar3": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "69fdad6502620a22aa773e0d"
+      }
+    },
+    "contingencyVar4": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "69fdad6502620a22aa773e0e"
+      }
+    },
+    "leveragedCashflowMargin": [
+      "l"
+    ],
+    "propertyValues": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-08T10:31:19.621Z"
+        },
+        "value": 562340,
+        "_id": {
+          "$oid": "69fdbb7786a20860e7309e37"
+        }
+      }
+    ],
+    "assetValues": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-08T10:31:19.621Z"
+        },
+        "value": 520000,
+        "_id": {
+          "$oid": "69fdbb7786a20860e7309e38"
+        }
+      }
+    ],
+    "assetValue": 520000,
+    "closingCost": 1000,
+    "currentDebt": 455000,
+    "currentEquity": 65000,
+    "defaultAnnualAppreciation": 10,
+    "defaultMonthlyRent": 3850,
+    "defaultRentGrowth": 3,
+    "defaultTokensPurchased": 1000,
+    "maintenanceReserve": 21840,
+    "mogulBuyerFee": 6500,
+    "mogulEquityToBuy": 0,
+    "mogulEquityToSell": 107340,
+    "platformResaleFee": 3,
+    "projectedInvGain": "250",
+    "sellerEquity": 0,
+    "vacancyReserve": 13000,
+    "yearlyInvReturn": "25",
+    "mogulSellerFee": 0
+  },
+  "documents": {
+    "others": [
+      {
+        "contentType": "application/pdf",
+        "key": "Property Valuation Report.pdf",
+        "path": "documents/Property_Valuation_Report_z0m5en",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749746/documents/Property_Valuation_Report_z0m5en.pdf",
+        "createdAt": {
+          "$date": "2026-05-14T08:15:12.283Z"
+        },
+        "sizeInMegaByte": 0.00273
+      }
+    ],
+    "main": {
+      "createdAt": {
+        "$date": "2026-05-14T08:15:12.283Z"
+      },
+      "contentType": "application/pdf",
+      "key": "Property Title Deed.pdf",
+      "path": "mainDoc/Property_Title_Deed_qshuz2",
+      "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749716/mainDoc/Property_Title_Deed_qshuz2.pdf",
+      "sizeInMegaByte": 0.00273
+    }
+  },
+  "images": {
+    "list": [
+      {
+        "contentType": "image/png",
+        "key": "Screenshot 2025-05-25 074719.png",
+        "path": "images/mzkg9nmppyfomal1ep23",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778235524/images/mzkg9nmppyfomal1ep23.png",
+        "_id": {
+          "$oid": "69fdb88602620a22aa773ea8"
+        },
+        "createdAt": {
+          "$date": "2026-05-08T10:18:46.847Z"
+        }
+      }
+    ],
+    "mainImage": 0
+  },
+  "cashflow": {
+    "propertyMgtFee": {
+      "isEnabled": false,
+      "_id": {
+        "$oid": "69fdad6502620a22aa773e0f"
+      }
+    },
+    "LLCAdministrationFee": {
+      "isEnabled": false,
+      "_id": {
+        "$oid": "69fdad6502620a22aa773e10"
+      }
+    },
+    "HOAFee": {
+      "isEnabled": false,
+      "_id": {
+        "$oid": "69fdad6502620a22aa773e11"
+      }
+    },
+    "monthlyRent": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-08T10:17:13.285Z"
+        },
+        "value": 3850,
+        "_id": {
+          "$oid": "69fdb82902620a22aa773e75"
+        }
+      }
+    ],
+    "rentalDocuments": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-08T10:17:13.285Z"
+        },
+        "value": {
+          "contentType": "application/pdf",
+          "key": "Class_7_Science_Annual_Exam.pdf",
+          "path": "rentalDocument/yo3m59yzgiohrasgm5sv",
+          "url": "https://res.cloudinary.com/adil1010/image/upload/v1778235430/rentalDocument/yo3m59yzgiohrasgm5sv.pdf",
+          "_id": {
+            "$oid": "69fdb82902620a22aa773e77"
+          },
+          "createdAt": {
+            "$date": "2026-05-08T10:17:13.291Z"
+          }
+        },
+        "_id": {
+          "$oid": "69fdb82902620a22aa773e76"
+        }
+      }
+    ],
+    "annualRentGrowth": 10,
+    "insurance": 100,
+    "interest": 100,
+    "maxMaintenanceFee": 1000,
+    "maxVacancyFee": 2000,
+    "mortgage": 300,
+    "principal": 100,
+    "taxes": 100
+  },
+  "crowdSale": {
+    "isMogulEquityBought": false,
+    "tokensForSale": 107340,
+    "numberOfTokens": 107340,
+    "startDate": {
+      "$date": "2026-05-08T18:30:00.000Z"
+    },
+    "stopDate": {
+      "$date": "2026-07-08T18:30:00.000Z"
+    }
+  },
+  "status": "OnSale",
+  "investorAccessStatus": false,
+  "underwriting": {
+    "monthlyRentalIncomeBase": 0,
+    "monthlyRentalIncomeBear": 0,
+    "monthlyRentalIncomeBull": 0,
+    "rentalIncomeGrowthRateBase": 0,
+    "rentalIncomeGrowthRateBear": 0,
+    "rentalIncomeGrowthRateBull": 0,
+    "yearlyPropertyTaxesBase": 0,
+    "hoaDuesBase": 0,
+    "homeownersInsuranceBase": 0,
+    "propertyManagementBase": 0,
+    "miscCostsBase": 0,
+    "expensesGrowthRateBase": 0,
+    "expensesGrowthRateBear": 0,
+    "expensesGrowthRateBull": 0,
+    "valueGrowthRateBase": 0,
+    "valueGrowthRateBear": 0,
+    "valueGrowthRateBull": 0,
+    "yearsBase": 0,
+    "yearsBear": 0,
+    "yearsBull": 0
+  },
+  "_createdBy": {
+    "$oid": "69fc1aa4dd5ec695061c1657"
+  },
+  "_updatedBy": {
+    "$oid": "69fc1aa4dd5ec695061c1657"
+  },
+  "buyProcess": [
+    {
+      "name": "step#001",
+      "description": "testing",
+      "date": {
+        "$date": "2026-05-12T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "69fdb90e02620a22aa773f38"
+      }
+    }
+  ],
+  "investorAccessList": [],
+  "createdAt": {
+    "$date": "2026-05-08T09:31:17.700Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-12T08:32:59.357Z"
+  },
+  "blockchainAddress": "0x586ac267AcE6992bDC397EdD5f74b3a78569d84A",
+  "fireblocks": {
+    "vaultId": "9"
+  },
+  "mintedAt": {
+    "$date": "2026-05-08T10:31:34.120Z"
+  },
+  "rentalDocuments": [
+    {
+      "updatedAt": {
+        "$date": "2026-05-14T08:15:47.430Z"
+      },
+      "value": {
+        "contentType": "application/pdf",
+        "key": "Rental Agreement.pdf",
+        "path": "rentalDocument/Rental_Agreement_whhizy",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749756/rentalDocument/Rental_Agreement_whhizy.pdf",
+        "createdAt": {
+          "$date": "2026-05-14T08:15:47.434Z"
+        },
+        "sizeInMegaByte": 0.00273
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a01ba52575593a598d1cdf6"
+  },
+  "attom": {
+    "attomId": 123456,
+    "apn": "29-37-18-JR-02651.0-0020.00",
+    "lotsize1": 0.2300046,
+    "lotsize2": 10019,
+    "area": 1116,
+    "lotnum": "20",
+    "blockNumber": "2651",
+    "locationType": "VIEW - NONE",
+    "country": "US",
+    "state": "FL",
+    "city": "PALM BAY",
+    "areaTaxCode": "34U0",
+    "line1": "343 AINSLEY ST SE",
+    "line2": "PALM BAY, FL 32909",
+    "zipCode": "32909",
+    "latitude": "27.964903",
+    "longitude": "-80.665282",
+    "propertyClass": "Single Family Residence / Townhouse",
+    "propertyType": "SFR",
+    "yearBuilt": 1988,
+    "bathTotal": 2,
+    "bedrooms": 3,
+    "levels": 1,
+    "avmamountchange": 25000,
+    "avmlastmonthvalue": 1000000,
+    "avmpercentchange": 40
+  },
+  "otherInfo": {
+    "isOccupied": false,
+    "tags": [],
+    "pool": true,
+    "fireplace": true,
+    "garage": true,
+    "isTrending": true,
+    "isHidden": true,
+    "_manager": {
+      "$oid": "69fd6865da8ad702d48084e2"
+    },
+    "_market": {
+      "$oid": "6a06cf8d0a7a2730e62c181f"
+    },
+    "_owner": {
+      "$oid": "69fd6b6025f8a12230770fca"
+    },
+    "firstDividendsDate": {
+      "$date": "2026-06-11T15:48:00.000Z"
+    },
+    "purchaseDate": {
+      "$date": "2021-01-11T16:48:00.000Z"
+    },
+    "title": "Tulip homes",
+    "description": "<p><br></p>",
+    "occupiedLabel": "test",
+    "quote": "#2 Real Estate Market in the United States- ULI & PWC 2022 Report",
+    "interestRate": 2.625,
+    "loanTerm": 360,
+    "descriptionHeading": "Strongly Desired Dallas Townhome Benefitting from 2.625% Mortgage Rate",
+    "statusDescription": "Strongly Desired Dallas Townhome Benefitting from 2.625% Mortgage Rate",
+    "financedByName": "candour",
+    "financedByImage": {
+      "_id": {
+        "$oid": "6a01c9e2575593a598d1d081"
+      },
+      "createdAt": {
+        "$date": "2026-05-11T12:21:54.833Z"
+      },
+      "contentType": "image/jpeg",
+      "key": "property images 4.jpg",
+      "path": "images/iflobxhnvaoojec3kdle",
+      "url": "https://res.cloudinary.com/adil1010/image/upload/v1778502111/images/iflobxhnvaoojec3kdle.jpg",
+      "sizeInMegaByte": 11916
+    },
+    "managedByImage": {
+      "_id": {
+        "$oid": "6a01c9f2575593a598d1d0af"
+      },
+      "createdAt": {
+        "$date": "2026-05-11T12:22:10.912Z"
+      },
+      "contentType": "image/jpeg",
+      "key": "images.jpg",
+      "path": "images/qy41ethenenwq7kimda2",
+      "url": "https://res.cloudinary.com/adil1010/image/upload/v1778502127/images/qy41ethenenwq7kimda2.jpg",
+      "sizeInMegaByte": 7543
+    },
+    "managedByName": "candour",
+    "estateId": "4"
+  },
+  "financials": {
+    "contingencyVar1": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a01ba52575593a598d1cdef"
+      }
+    },
+    "contingencyVar2": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a01ba52575593a598d1cdf0"
+      }
+    },
+    "contingencyVar3": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a01ba52575593a598d1cdf1"
+      }
+    },
+    "contingencyVar4": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a01ba52575593a598d1cdf2"
+      }
+    },
+    "leveragedCashflowMargin": [
+      "l"
+    ],
+    "propertyValues": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-11T12:13:15.851Z"
+        },
+        "value": 562340,
+        "_id": {
+          "$oid": "6a01c7db575593a598d1ce99"
+        }
+      }
+    ],
+    "assetValues": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-11T12:13:15.851Z"
+        },
+        "value": 520000,
+        "_id": {
+          "$oid": "6a01c7db575593a598d1ce9a"
+        }
+      }
+    ],
+    "assetValue": 520000,
+    "brexPaymentInstrumentId": "1000",
+    "brexRentAccountRecipientId": "10000",
+    "closingCost": 1000,
+    "currentDebt": 455000,
+    "currentEquity": 65000,
+    "defaultAnnualAppreciation": 10,
+    "defaultMonthlyRent": 3850,
+    "defaultRentGrowth": 3,
+    "defaultTokensPurchased": 1000,
+    "maintenanceReserve": 21840,
+    "maintenanceReserveAccountId": "1000",
+    "mogulBuyerFee": 6500,
+    "mogulEquityToBuy": 40000,
+    "mogulEquityToSell": 27340,
+    "mogulSellerFee": 0,
+    "platformResaleFee": 3,
+    "projectedInvGain": "250-300",
+    "sellerEquity": 40000,
+    "vacancyReserve": 13000,
+    "vacancyReserveAccountId": "1000",
+    "yearlyInvReturn": "25-30"
+  },
+  "documents": {
+    "others": [
+      {
+        "contentType": "application/pdf",
+        "key": "Property Valuation Report.pdf",
+        "path": "documents/Property_Valuation_Report_z0m5en",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749746/documents/Property_Valuation_Report_z0m5en.pdf",
+        "createdAt": {
+          "$date": "2026-05-14T08:15:12.283Z"
+        },
+        "sizeInMegaByte": 0.00273
+      }
+    ],
+    "main": {
+      "createdAt": {
+        "$date": "2026-05-14T08:15:12.283Z"
+      },
+      "contentType": "application/pdf",
+      "key": "Property Title Deed.pdf",
+      "path": "mainDoc/Property_Title_Deed_qshuz2",
+      "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749716/mainDoc/Property_Title_Deed_qshuz2.pdf",
+      "sizeInMegaByte": 0.00273
+    }
+  },
+  "images": {
+    "list": [
+      {
+        "contentType": "image/jpeg",
+        "key": "property images 1.jpg",
+        "path": "images/acruqagiruipjqr3w0x6",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778499018/images/acruqagiruipjqr3w0x6.jpg",
+        "_id": {
+          "$oid": "6a01be72575593a598d1ce26"
+        },
+        "createdAt": {
+          "$date": "2026-05-11T11:33:06.142Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "images (1).jpg",
+        "path": "images/u0sdxjms5baf2y9mg5l0",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778499026/images/u0sdxjms5baf2y9mg5l0.jpg",
+        "_id": {
+          "$oid": "6a01be72575593a598d1ce27"
+        },
+        "createdAt": {
+          "$date": "2026-05-11T11:33:06.142Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "images (2).jpg",
+        "path": "images/b53n2bntbd2nwdeos0c5",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778499032/images/b53n2bntbd2nwdeos0c5.jpg",
+        "_id": {
+          "$oid": "6a01be72575593a598d1ce28"
+        },
+        "createdAt": {
+          "$date": "2026-05-11T11:33:06.142Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "images.jpg",
+        "path": "images/rwbzbshkaovyvke13le2",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778499039/images/rwbzbshkaovyvke13le2.jpg",
+        "_id": {
+          "$oid": "6a01be72575593a598d1ce29"
+        },
+        "createdAt": {
+          "$date": "2026-05-11T11:33:06.142Z"
+        }
+      }
+    ],
+    "mainImage": 0
+  },
+  "cashflow": {
+    "propertyMgtFee": {
+      "isEnabled": true,
+      "_id": {
+        "$oid": "6a01ba52575593a598d1cdf3"
+      },
+      "value": 7
+    },
+    "LLCAdministrationFee": {
+      "isEnabled": false,
+      "_id": {
+        "$oid": "6a01ba52575593a598d1cdf4"
+      }
+    },
+    "HOAFee": {
+      "isEnabled": true,
+      "_id": {
+        "$oid": "6a01ba52575593a598d1cdf5"
+      },
+      "value": 511
+    },
+    "monthlyRent": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-11T12:22:38.934Z"
+        },
+        "value": 3850,
+        "_id": {
+          "$oid": "6a01ca0e575593a598d1d0e1"
+        }
+      }
+    ],
+    "rentalDocuments": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-11T12:15:35.248Z"
+        },
+        "value": {
+          "contentType": "application/pdf",
+          "key": "file-sample_150kB.pdf",
+          "path": "rentalDocument/keqa9wlt0u0ax3v7nqa3",
+          "url": "https://res.cloudinary.com/adil1010/image/upload/v1778501733/rentalDocument/keqa9wlt0u0ax3v7nqa3.pdf",
+          "_id": {
+            "$oid": "6a01c867575593a598d1ceb4"
+          },
+          "createdAt": {
+            "$date": "2026-05-11T12:15:35.250Z"
+          }
+        },
+        "_id": {
+          "$oid": "6a01c867575593a598d1ceb3"
+        }
+      }
+    ],
+    "annualRentGrowth": 3,
+    "insurance": 58,
+    "interest": 1939,
+    "mortgage": 4795,
+    "principal": 1939,
+    "taxes": 917,
+    "maxMaintenanceFee": 0,
+    "maxVacancyFee": 0
+  },
+  "crowdSale": {
+    "isMogulEquityBought": false,
+    "tokensForSale": 27340,
+    "numberOfTokens": 107340,
+    "startDate": {
+      "$date": "2026-05-11T18:30:00.000Z"
+    },
+    "stopDate": {
+      "$date": "2026-05-29T18:30:00.000Z"
+    }
+  },
+  "status": "OnSale",
+  "investorAccessStatus": false,
+  "underwriting": {
+    "monthlyRentalIncomeBase": 0,
+    "monthlyRentalIncomeBear": 0,
+    "monthlyRentalIncomeBull": 0,
+    "rentalIncomeGrowthRateBase": 0,
+    "rentalIncomeGrowthRateBear": 0,
+    "rentalIncomeGrowthRateBull": 0,
+    "yearlyPropertyTaxesBase": 0,
+    "hoaDuesBase": 0,
+    "homeownersInsuranceBase": 0,
+    "propertyManagementBase": 0,
+    "miscCostsBase": 0,
+    "expensesGrowthRateBase": 0,
+    "expensesGrowthRateBear": 0,
+    "expensesGrowthRateBull": 0,
+    "valueGrowthRateBase": 0,
+    "valueGrowthRateBear": 0,
+    "valueGrowthRateBull": 0,
+    "yearsBase": 0,
+    "yearsBear": 0,
+    "yearsBull": 0
+  },
+  "_createdBy": {
+    "$oid": "69fc1aa4dd5ec695061c1657"
+  },
+  "_updatedBy": {
+    "$oid": "69fc1aa4dd5ec695061c1657"
+  },
+  "buyProcess": [
+    {
+      "name": "Property audit",
+      "description": "Property audit was done properly",
+      "date": {
+        "$date": "2026-05-01T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a01c867575593a598d1ceb5"
+      }
+    },
+    {
+      "name": "Documents review",
+      "description": "Documents review",
+      "date": {
+        "$date": "2026-05-04T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a01c867575593a598d1ceb6"
+      }
+    },
+    {
+      "name": "Agreement signed",
+      "description": "Agreement signed",
+      "date": {
+        "$date": "2026-05-07T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a01c867575593a598d1ceb7"
+      }
+    }
+  ],
+  "investorAccessList": [],
+  "createdAt": {
+    "$date": "2026-05-11T11:15:30.361Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-15T08:18:40.681Z"
+  },
+  "video": {
+    "_id": {
+      "$oid": "6a01c867575593a598d1ceb8"
+    },
+    "createdAt": {
+      "$date": "2026-05-11T12:15:35.251Z"
+    },
+    "contentType": "image/jpeg",
+    "key": "images.jpg",
+    "path": "video/sknbtkjgz1fsiipuuljj",
+    "url": "https://res.cloudinary.com/adil1010/image/upload/v1778501607/video/sknbtkjgz1fsiipuuljj.jpg"
+  },
+  "blockchainAddress": "0x8F8c33518B0f61D1576962aA1e38837BB7BbD92E",
+  "fireblocks": {
+    "vaultId": "11"
+  },
+  "mintedAt": {
+    "$date": "2026-05-11T12:24:15.531Z"
+  },
+  "rentalDocuments": [
+    {
+      "updatedAt": {
+        "$date": "2026-05-14T08:15:47.430Z"
+      },
+      "value": {
+        "contentType": "application/pdf",
+        "key": "Rental Agreement.pdf",
+        "path": "rentalDocument/Rental_Agreement_whhizy",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749756/rentalDocument/Rental_Agreement_whhizy.pdf",
+        "createdAt": {
+          "$date": "2026-05-14T08:15:47.434Z"
+        },
+        "sizeInMegaByte": 0.00273
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a02e00b434d5843cf15338d"
+  },
+  "attom": {
+    "attomId": 35489622,
+    "apn": "02060402040000",
+    "lotsize1": 0.2028007,
+    "lotsize2": 8834,
+    "area": 2550,
+    "lotnum": "7",
+    "blockNumber": "66",
+    "locationType": "VIEW - NONE",
+    "country": "US",
+    "state": "TX",
+    "city": "AUSTIN",
+    "areaTaxCode": "02 2J 2U 68",
+    "line1": "405 SHANT ST",
+    "line2": "AUSTIN, TX 78748",
+    "zipCode": "78748",
+    "latitude": "30.267644",
+    "longitude": "-97.738654",
+    "propertyClass": "Amusement-Recreation",
+    "propertyType": "Rental",
+    "yearBuilt": 1965,
+    "levels": 2,
+    "avmamountchange": 200,
+    "avmlastmonthvalue": 1000,
+    "avmpercentchange": 5,
+    "bathTotal": 2,
+    "bedrooms": 4
+  },
+  "otherInfo": {
+    "isOccupied": true,
+    "tags": [],
+    "pool": false,
+    "fireplace": true,
+    "garage": true,
+    "isTrending": true,
+    "isHidden": false,
+    "_manager": {
+      "$oid": "69fd6865da8ad702d48084e2"
+    },
+    "_market": {
+      "$oid": "69fc5f49c58ca660788493f3"
+    },
+    "_owner": {
+      "$oid": "6a01b931cbe7082bbbc3b953"
+    },
+    "description": "<p>Located down the road from a Whole Foods and around the corner from an Equinox, this large townhome is on the border of one of the most affluent towns in the United States. Across the property’s four floors, the home contains 2 guest bedrooms each with full bathrooms and 1 master bedroom with a full jack and jill bathroom (containing a jacuzzi and separate walk-in shower). The property benefits from additional amenities including: a gas-powered fireplace, open-concept kitchen, surround sound theater room, and rooftop terrace with unobstructed, sweeping views of downtown Dallas.&nbsp;</p>",
+    "descriptionHeading": "Strongly Desired Austin Townhome Benefitting from 2.625% Mortgage Rate",
+    "descriptionSubHeading": "Incredibly Affordable Investment Opportunity, On the Border of a Top 10 Wealthiest Suburb in the US",
+    "financedByImage": {
+      "_id": {
+        "$oid": "6a02e178434d5843cf1533aa"
+      },
+      "createdAt": {
+        "$date": "2026-05-12T08:14:48.182Z"
+      },
+      "contentType": "image/jpeg",
+      "key": "14(portrait).jpg",
+      "path": "images/hkur9pyf0inwmxjbvhoz",
+      "url": "https://res.cloudinary.com/adil1010/image/upload/v1778573660/images/hkur9pyf0inwmxjbvhoz.jpg",
+      "sizeInMegaByte": 542275
+    },
+    "financedByName": "candour",
+    "firstDividendsDate": {
+      "$date": "2026-06-12T12:42:00.000Z"
+    },
+    "interestRate": 2.625,
+    "loanTerm": 360,
+    "managedByImage": {
+      "_id": {
+        "$oid": "6a02e178434d5843cf1533ab"
+      },
+      "createdAt": {
+        "$date": "2026-05-12T08:14:48.182Z"
+      },
+      "contentType": "image/jpeg",
+      "key": "14(portrait).jpg",
+      "path": "images/txqvwo3m0fgwioqbgl9r",
+      "url": "https://res.cloudinary.com/adil1010/image/upload/v1778573668/images/txqvwo3m0fgwioqbgl9r.jpg",
+      "sizeInMegaByte": 542275
+    },
+    "managedByName": "candour",
+    "occupiedLabel": "Occupied for 2 Years",
+    "purchaseDate": {
+      "$date": "2026-05-12T13:42:00.000Z"
+    },
+    "quote": "#2 Real Estate Market in the United States - ULI & PWC 2022 Report",
+    "statusDescription": "Strongly Desired Austin Townhome Benefitting from 2.625% Mortgage Rate",
+    "title": "Silver Ridge",
+    "estateId": "5"
+  },
+  "financials": {
+    "assetValue": 520000,
+    "closingCost": 1000,
+    "maintenanceReserve": 21840,
+    "vacancyReserve": 13000,
+    "mogulBuyerFee": 6500,
+    "mogulSellerFee": 0,
+    "contingencyVar1": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a02e00b434d5843cf153386"
+      }
+    },
+    "contingencyVar2": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a02e00b434d5843cf153387"
+      }
+    },
+    "contingencyVar3": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a02e00b434d5843cf153388"
+      }
+    },
+    "contingencyVar4": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a02e00b434d5843cf153389"
+      }
+    },
+    "currentEquity": 65000,
+    "currentDebt": 455000,
+    "sellerEquity": 40000,
+    "mogulEquityToBuy": 40000,
+    "mogulEquityToSell": 27340,
+    "platformResaleFee": 3,
+    "yearlyInvReturn": "25%-30%",
+    "projectedInvGain": "250%-300%",
+    "defaultRentGrowth": 3,
+    "defaultAnnualAppreciation": 10,
+    "defaultTokensPurchased": 1000,
+    "propertyValues": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-12T08:29:13.356Z"
+        },
+        "value": 562340,
+        "_id": {
+          "$oid": "6a02e4d9434d5843cf1535ec"
+        }
+      },
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T07:10:38.699Z"
+        },
+        "value": 562340,
+        "_id": {
+          "$oid": "6a05756e8129cb78a17a4115"
+        }
+      }
+    ],
+    "assetValues": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-12T08:29:13.356Z"
+        },
+        "value": 520000,
+        "_id": {
+          "$oid": "6a02e4d9434d5843cf1535ed"
+        }
+      },
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T07:10:38.700Z"
+        },
+        "value": 520000,
+        "_id": {
+          "$oid": "6a05756e8129cb78a17a4116"
+        }
+      }
+    ],
+    "leveragedCashflowMargin": [
+      "1.80875032235809",
+      "1.80648370079632",
+      "2.77148578766119",
+      "3.87480528283506",
+      "8.46063098081505"
+    ],
+    "defaultMonthlyRent": 3850
+  },
+  "documents": {
+    "others": [
+      {
+        "contentType": "application/pdf",
+        "key": "Property Valuation Report.pdf",
+        "path": "documents/Property_Valuation_Report_z0m5en",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749746/documents/Property_Valuation_Report_z0m5en.pdf",
+        "createdAt": {
+          "$date": "2026-05-14T08:15:12.283Z"
+        },
+        "sizeInMegaByte": 0.00273
+      }
+    ],
+    "main": {
+      "createdAt": {
+        "$date": "2026-05-14T08:15:12.283Z"
+      },
+      "contentType": "application/pdf",
+      "key": "Property Title Deed.pdf",
+      "path": "mainDoc/Property_Title_Deed_qshuz2",
+      "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749716/mainDoc/Property_Title_Deed_qshuz2.pdf",
+      "sizeInMegaByte": 0.00273
+    }
+  },
+  "images": {
+    "list": [
+      {
+        "contentType": "image/jpeg",
+        "key": "ed-lamadrid-qmLjtfVoVN4-unsplash.jpg",
+        "path": "images/kbfdwlfztq6mdt07tuly",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778574024/images/kbfdwlfztq6mdt07tuly.jpg",
+        "_id": {
+          "$oid": "6a02e2e3434d5843cf1533e7"
+        },
+        "createdAt": {
+          "$date": "2026-05-12T08:20:51.024Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "jakob-owens-DJV40FsmPSg-unsplash.jpg",
+        "path": "images/rcii8cl3hdkepypgkqs7",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778574042/images/rcii8cl3hdkepypgkqs7.jpg",
+        "_id": {
+          "$oid": "6a02e2e3434d5843cf1533e8"
+        },
+        "createdAt": {
+          "$date": "2026-05-12T08:20:51.025Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "minh-pham-OtXADkUh3-I-unsplash.jpg",
+        "path": "images/vb3vbvluiii3kcsh9gap",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778574043/images/vb3vbvluiii3kcsh9gap.jpg",
+        "_id": {
+          "$oid": "6a02e2e3434d5843cf1533e9"
+        },
+        "createdAt": {
+          "$date": "2026-05-12T08:20:51.025Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "spacejoy-9M66C_w_ToM-unsplash.jpg",
+        "path": "images/orwygbklfivtjluks1ph",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778574044/images/orwygbklfivtjluks1ph.jpg",
+        "_id": {
+          "$oid": "6a02e2e3434d5843cf1533ea"
+        },
+        "createdAt": {
+          "$date": "2026-05-12T08:20:51.025Z"
+        }
+      }
+    ],
+    "mainImage": 0
+  },
+  "cashflow": {
+    "monthlyRent": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T08:19:20.473Z"
+        },
+        "value": 3400,
+        "_id": {
+          "$oid": "6a0585881ab9839313f862bb"
+        }
+      }
+    ],
+    "rentalDocuments": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-12T08:24:22.693Z"
+        },
+        "value": {
+          "contentType": "application/pdf",
+          "key": "pdf-sample_0.pdf",
+          "path": "rentalDocument/fqvrnq4okzzz4t9ynrbh",
+          "url": "https://res.cloudinary.com/adil1010/image/upload/v1778574259/rentalDocument/fqvrnq4okzzz4t9ynrbh.pdf",
+          "_id": {
+            "$oid": "6a02e3b6434d5843cf153417"
+          },
+          "createdAt": {
+            "$date": "2026-05-12T08:24:22.697Z"
+          }
+        },
+        "_id": {
+          "$oid": "6a02e3b6434d5843cf153416"
+        }
+      },
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T08:19:20.473Z"
+        },
+        "value": {
+          "contentType": "application/pdf",
+          "key": "Rental Agreement.pdf",
+          "path": "rentalDocument/ehgcfitaf8o75cjjro6u",
+          "url": "https://res.cloudinary.com/adil1010/image/upload/v1778746747/rentalDocument/ehgcfitaf8o75cjjro6u.pdf",
+          "_id": {
+            "$oid": "6a0585881ab9839313f862b5"
+          },
+          "createdAt": {
+            "$date": "2026-05-14T08:19:20.474Z"
+          }
+        },
+        "_id": {
+          "$oid": "6a0585881ab9839313f862b4"
+        }
+      }
+    ],
+    "principal": 1939,
+    "interest": 58,
+    "taxes": 917,
+    "mortgage": 2914,
+    "insurance": 58,
+    "propertyMgtFee": {
+      "value": 7,
+      "isEnabled": true,
+      "_id": {
+        "$oid": "6a02e00b434d5843cf15338a"
+      }
+    },
+    "LLCAdministrationFee": {
+      "isEnabled": false,
+      "_id": {
+        "$oid": "6a02e00b434d5843cf15338b"
+      }
+    },
+    "HOAFee": {
+      "value": 511,
+      "isEnabled": true,
+      "_id": {
+        "$oid": "6a02e00b434d5843cf15338c"
+      }
+    },
+    "annualRentGrowth": 3,
+    "maxMaintenanceFee": 10,
+    "maxVacancyFee": 10
+  },
+  "crowdSale": {
+    "isMogulEquityBought": false,
+    "tokensForSale": 27340,
+    "minInvestment": 500,
+    "numberOfTokens": 107340,
+    "startDate": {
+      "$date": "2026-05-19T18:30:00.000Z"
+    },
+    "stopDate": {
+      "$date": "2028-03-11T18:30:00.000Z"
+    }
+  },
+  "status": "OnSale",
+  "investorAccessStatus": true,
+  "underwriting": {
+    "monthlyRentalIncomeBase": 0,
+    "monthlyRentalIncomeBear": 0,
+    "monthlyRentalIncomeBull": 0,
+    "rentalIncomeGrowthRateBase": 0,
+    "rentalIncomeGrowthRateBear": 0,
+    "rentalIncomeGrowthRateBull": 0,
+    "yearlyPropertyTaxesBase": 0,
+    "hoaDuesBase": 0,
+    "homeownersInsuranceBase": 0,
+    "propertyManagementBase": 0,
+    "miscCostsBase": 0,
+    "expensesGrowthRateBase": 0,
+    "expensesGrowthRateBear": 0,
+    "expensesGrowthRateBull": 0,
+    "valueGrowthRateBase": 0,
+    "valueGrowthRateBear": 0,
+    "valueGrowthRateBull": 0,
+    "yearsBase": 0,
+    "yearsBear": 0,
+    "yearsBull": 0
+  },
+  "_createdBy": {
+    "$oid": "69fc1aa4dd5ec695061c1657"
+  },
+  "_updatedBy": {
+    "$oid": "69fc1aa4dd5ec695061c1657"
+  },
+  "buyProcess": [
+    {
+      "name": " Due Diligence",
+      "description": "Property is thoroughly vetted through inspection, conversations with property manager, Underwriting, Market Analysis, and Comparables Analysis. Offer is made.",
+      "date": {
+        "$date": "2026-04-01T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a02e3b6434d5843cf153418"
+      }
+    },
+    {
+      "name": "Under Contract",
+      "description": "Offer is accepted by seller with contingencies for minor repairs. Purchase Agreement is signed and due diligence materials are uploaded to the “documents” section.",
+      "date": {
+        "$date": "2026-04-28T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a02e3b6434d5843cf153419"
+      }
+    },
+    {
+      "name": "Raise",
+      "description": "Raise for equity purchase begins. ",
+      "date": {
+        "$date": "2026-05-06T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a02e3b6434d5843cf15341a"
+      }
+    }
+  ],
+  "investorAccessList": [
+    {
+      "id": {
+        "$oid": "6a01b931cbe7082bbbc3b953"
+      },
+      "email": "padmini@yopmail.com",
+      "name": "Padmini Jain",
+      "_id": {
+        "$oid": "6a02e3c7434d5843cf15349d"
+      }
+    },
+    {
+      "id": {
+        "$oid": "69fd6865da8ad702d48084e2"
+      },
+      "email": "adil101078@gmail.com",
+      "name": "Adil Ansari",
+      "_id": {
+        "$oid": "6a02e3cd434d5843cf1534f8"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-05-12T08:08:43.816Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T06:44:07.953Z"
+  },
+  "blockchainAddress": "0xB27BAE1b0F5C58362b0aa4f11e094686467De708",
+  "fireblocks": {
+    "vaultId": "12"
+  },
+  "mintedAt": {
+    "$date": "2026-05-12T08:29:28.115Z"
+  },
+  "rentalDocuments": [
+    {
+      "updatedAt": {
+        "$date": "2026-05-14T08:15:47.430Z"
+      },
+      "value": {
+        "contentType": "application/pdf",
+        "key": "Rental Agreement.pdf",
+        "path": "rentalDocument/Rental_Agreement_whhizy",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749756/rentalDocument/Rental_Agreement_whhizy.pdf",
+        "createdAt": {
+          "$date": "2026-05-14T08:15:47.434Z"
+        },
+        "sizeInMegaByte": 0.00273
+      }
+    }
+  ],
+  "rationale": {
+    "description": "<p>This property offers an excellent combination of location, value, lifestyle, and long-term growth potential. Situated in a desirable area with convenient access to schools, transportation, shopping, and essential amenities, it provides both comfort for residents and strong appeal for future buyers or tenants. The property’s layout, condition, and surrounding market trends make it a compelling opportunity for homeowners and investors seeking stability, appreciation potential, and reliable returns in the real estate market.</p>",
+    "heading": "Why This Property Is a Smart Investment"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a042351434d5843cf15387a"
+  },
+  "attom": {
+    "attomId": 18562167,
+    "apn": "23  00037-0000-00011",
+    "lotsize1": 0.1719927,
+    "lotsize2": 7492,
+    "area": 1739,
+    "lotnum": "11",
+    "blockNumber": "37",
+    "locationType": "VIEW - NONE",
+    "country": "US",
+    "state": "NJ",
+    "city": "MORRIS PLAINS",
+    "areaTaxCode": "NJ-MP-07950",
+    "line1": "17 CARLYLE AVE",
+    "line2": "MORRIS PLAINS, NJ 07950",
+    "zipCode": "07950",
+    "latitude": "40.826863",
+    "longitude": "-74.491160",
+    "propertyClass": "Single Family Residence / Townhouse",
+    "propertyType": "SFR",
+    "yearBuilt": 2018,
+    "levels": 1,
+    "avmamountchange": 120,
+    "avmlastmonthvalue": 100,
+    "avmpercentchange": 5,
+    "bathTotal": 2,
+    "bedrooms": 3
+  },
+  "otherInfo": {
+    "isOccupied": true,
+    "tags": [
+      "Luxury",
+      "High Growth",
+      "Passive Income"
+    ],
+    "pool": true,
+    "fireplace": true,
+    "garage": true,
+    "isTrending": false,
+    "isHidden": false,
+    "description": "<p data-start=\"51\" data-end=\"422\">Situated in the heart of Manhattan, Hudson Crown Residences is a premium luxury condominium offering modern urban living with exceptional skyline views, high-end interiors, and world-class amenities. Located near Hudson Yards and Chelsea, the property benefits from strong rental demand, excellent connectivity, and proximity to major business and lifestyle destinations.</p>\n<p data-start=\"424\" data-end=\"786\">The residence features spacious layouts, floor-to-ceiling windows, smart-home integrations, a private fitness center, rooftop lounge access, concierge services, and secure parking facilities. Its strategic location and consistent appreciation trends make it an attractive opportunity for fractional real estate investment and long-term passive income generation.</p>\n<p data-start=\"788\" data-end=\"929\" data-is-last-node=\"\" data-is-only-node=\"\">Hudson Crown Residences combines luxury, stability, and growth potential within one of New York City’s most sought-after real estate markets.</p>",
+    "title": "Hudson Residences",
+    "_manager": {
+      "$oid": "69fd6865da8ad702d48084e2"
+    },
+    "_market": {
+      "$oid": "6a06ce0bf6b203990ed6d8b6"
+    },
+    "_owner": {
+      "$oid": "69fd6b6025f8a12230770fca"
+    },
+    "checkoutDescription": "Secure fractional ownership in high-potential real estate assets and earn passive income through tokenized property investments.",
+    "checkoutHeading": "Start Investing in Premium Real Estate",
+    "descriptionHeading": "Luxury Living in Midtown Manhattan",
+    "descriptionSubHeading": "Premium condominium with skyline views and high rental demand",
+    "financedByImage": {
+      "_id": {
+        "$oid": "6a0429ca434d5843cf1538be"
+      },
+      "createdAt": {
+        "$date": "2026-05-13T07:35:38.361Z"
+      },
+      "contentType": "image/png",
+      "key": "Image (1).png",
+      "path": "images/hebzkvcizglxrzwf1rhi",
+      "url": "https://res.cloudinary.com/adil1010/image/upload/v1778657547/images/hebzkvcizglxrzwf1rhi.png",
+      "sizeInMegaByte": 459241
+    },
+    "financedByName": "candour",
+    "firstDividendsDate": {
+      "$date": "2021-06-13T12:01:00.000Z"
+    },
+    "interestRate": 8.5,
+    "loanTerm": 72,
+    "managedByImage": {
+      "_id": {
+        "$oid": "6a0429ca434d5843cf1538bf"
+      },
+      "createdAt": {
+        "$date": "2026-05-13T07:35:38.361Z"
+      },
+      "contentType": "image/jpeg",
+      "key": "a2bfee0e598161cff64752473e19d5b7cc940222.jpg",
+      "path": "images/zzunpyfepnhqsbccscg3",
+      "url": "https://res.cloudinary.com/adil1010/image/upload/v1778657577/images/zzunpyfepnhqsbccscg3.jpg",
+      "sizeInMegaByte": 796958
+    },
+    "managedByName": "candour",
+    "occupiedLabel": "Fully Occupied",
+    "purchaseDate": {
+      "$date": "2018-05-04T12:01:00.000Z"
+    },
+    "quote": "Designed for long-term appreciation and premium urban living.",
+    "statusDescription": "Stable occupancy with strong long-term growth potential and consistent investor returns.",
+    "estateId": "6"
+  },
+  "financials": {
+    "assetValue": 520000,
+    "closingCost": 1000,
+    "maintenanceReserve": 21840,
+    "maintenanceReserveAccountId": "1",
+    "vacancyReserve": 13000,
+    "vacancyReserveAccountId": "1",
+    "mogulBuyerFee": 6500,
+    "mogulSellerFee": 0,
+    "contingencyVar1": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a042351434d5843cf153873"
+      }
+    },
+    "contingencyVar2": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a042351434d5843cf153874"
+      }
+    },
+    "contingencyVar3": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a042351434d5843cf153875"
+      }
+    },
+    "contingencyVar4": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a042351434d5843cf153876"
+      }
+    },
+    "currentEquity": 65000,
+    "currentDebt": 455000,
+    "sellerEquity": 40000,
+    "mogulEquityToBuy": 40000,
+    "mogulEquityToSell": 27340,
+    "platformResaleFee": 3,
+    "yearlyInvReturn": "28%-35%",
+    "projectedInvGain": "250%-300%",
+    "defaultRentGrowth": 3,
+    "defaultAnnualAppreciation": 10,
+    "defaultTokensPurchased": 500,
+    "propertyValues": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-13T11:39:50.446Z"
+        },
+        "value": 562340,
+        "_id": {
+          "$oid": "6a0463062caf888f226dd35f"
+        }
+      },
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T07:09:53.731Z"
+        },
+        "value": 562340,
+        "_id": {
+          "$oid": "6a0575418129cb78a17a40da"
+        }
+      }
+    ],
+    "assetValues": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-13T11:39:50.446Z"
+        },
+        "value": 520000,
+        "_id": {
+          "$oid": "6a0463062caf888f226dd360"
+        }
+      },
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T07:09:53.731Z"
+        },
+        "value": 520000,
+        "_id": {
+          "$oid": "6a0575418129cb78a17a40db"
+        }
+      }
+    ],
+    "leveragedCashflowMargin": [
+      "1.80875032235809",
+      "1.80648370079632",
+      "2.77148578766119",
+      "3.87480528283506",
+      "8.46063098081505"
+    ],
+    "defaultMonthlyRent": 4250,
+    "brexPaymentInstrumentId": "1",
+    "brexRentAccountRecipientId": "1"
+  },
+  "documents": {
+    "others": [
+      {
+        "contentType": "application/pdf",
+        "key": "Property Valuation Report.pdf",
+        "path": "documents/Property_Valuation_Report_z0m5en",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749746/documents/Property_Valuation_Report_z0m5en.pdf",
+        "createdAt": {
+          "$date": "2026-05-14T08:15:12.283Z"
+        },
+        "sizeInMegaByte": 0.00273
+      }
+    ],
+    "main": {
+      "createdAt": {
+        "$date": "2026-05-14T08:15:12.283Z"
+      },
+      "contentType": "application/pdf",
+      "key": "Property Title Deed.pdf",
+      "path": "mainDoc/Property_Title_Deed_qshuz2",
+      "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749716/mainDoc/Property_Title_Deed_qshuz2.pdf",
+      "sizeInMegaByte": 0.00273
+    }
+  },
+  "images": {
+    "list": [
+      {
+        "contentType": "image/jpeg",
+        "key": "dillon-kydd-XGvwt544g8k-unsplash.jpg",
+        "path": "images/azlfjwdwpnuear8mm5jr",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778672043/images/azlfjwdwpnuear8mm5jr.jpg",
+        "_id": {
+          "$oid": "6a0462c12caf888f226dd327"
+        },
+        "createdAt": {
+          "$date": "2026-05-13T11:38:41.961Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "quilia-iAftdIcgpFc-unsplash.jpg",
+        "path": "images/bywlife0cabfpkvb60mm",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778672139/images/bywlife0cabfpkvb60mm.jpg",
+        "_id": {
+          "$oid": "6a0462c12caf888f226dd328"
+        },
+        "createdAt": {
+          "$date": "2026-05-13T11:38:41.962Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "naomi-hebert-MP0bgaS_d1c-unsplash.jpg",
+        "path": "images/nl1w0cdsah2j9omlryxd",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778672181/images/nl1w0cdsah2j9omlryxd.jpg",
+        "_id": {
+          "$oid": "6a0462c12caf888f226dd329"
+        },
+        "createdAt": {
+          "$date": "2026-05-13T11:38:41.962Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "backbone-L4iRkKL5dng-unsplash.jpg",
+        "path": "images/ecdebx5hcupjkhclaoje",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778672282/images/ecdebx5hcupjkhclaoje.jpg",
+        "_id": {
+          "$oid": "6a0462c12caf888f226dd32a"
+        },
+        "createdAt": {
+          "$date": "2026-05-13T11:38:41.962Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "i-nengah-dwi-putra-witarsana-nDIQ7qEejDM-unsplash.jpg",
+        "path": "images/xewv4twdjforbv7h02lb",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778672312/images/xewv4twdjforbv7h02lb.jpg",
+        "_id": {
+          "$oid": "6a0462c12caf888f226dd32b"
+        },
+        "createdAt": {
+          "$date": "2026-05-13T11:38:41.962Z"
+        }
+      }
+    ],
+    "mainImage": 0
+  },
+  "cashflow": {
+    "propertyMgtFee": {
+      "isEnabled": false,
+      "_id": {
+        "$oid": "6a042351434d5843cf153877"
+      }
+    },
+    "LLCAdministrationFee": {
+      "isEnabled": false,
+      "_id": {
+        "$oid": "6a042351434d5843cf153878"
+      }
+    },
+    "HOAFee": {
+      "isEnabled": false,
+      "_id": {
+        "$oid": "6a042351434d5843cf153879"
+      }
+    },
+    "monthlyRent": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-13T10:49:48.170Z"
+        },
+        "value": 3850,
+        "_id": {
+          "$oid": "6a04574c2caf888f226dd276"
+        }
+      }
+    ],
+    "rentalDocuments": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-13T10:49:48.170Z"
+        },
+        "value": {
+          "contentType": "application/pdf",
+          "key": "Lease Agreement  Rental Agreement.pdf",
+          "path": "rentalDocument/julw0k1onplhogta3o13",
+          "url": "https://res.cloudinary.com/adil1010/image/upload/v1778669381/rentalDocument/julw0k1onplhogta3o13.pdf",
+          "_id": {
+            "$oid": "6a04574c2caf888f226dd278"
+          },
+          "createdAt": {
+            "$date": "2026-05-13T10:49:48.173Z"
+          }
+        },
+        "_id": {
+          "$oid": "6a04574c2caf888f226dd277"
+        }
+      }
+    ],
+    "annualRentGrowth": 5,
+    "insurance": 12,
+    "interest": 4,
+    "maxMaintenanceFee": 12,
+    "maxVacancyFee": 12,
+    "mortgage": 1968,
+    "principal": 1939,
+    "taxes": 25
+  },
+  "crowdSale": {
+    "isMogulEquityBought": false,
+    "minInvestment": 500,
+    "numberOfTokens": 107340,
+    "startDate": {
+      "$date": "2026-05-13T18:30:00.000Z"
+    },
+    "stopDate": {
+      "$date": "2026-07-29T18:30:00.000Z"
+    },
+    "tokensForSale": 27340
+  },
+  "status": "OnSale",
+  "investorAccessStatus": false,
+  "underwriting": {
+    "monthlyRentalIncomeBase": 0,
+    "monthlyRentalIncomeBear": 0,
+    "monthlyRentalIncomeBull": 0,
+    "rentalIncomeGrowthRateBase": 0,
+    "rentalIncomeGrowthRateBear": 0,
+    "rentalIncomeGrowthRateBull": 0,
+    "yearlyPropertyTaxesBase": 0,
+    "hoaDuesBase": 0,
+    "homeownersInsuranceBase": 0,
+    "propertyManagementBase": 0,
+    "miscCostsBase": 0,
+    "expensesGrowthRateBase": 0,
+    "expensesGrowthRateBear": 0,
+    "expensesGrowthRateBull": 0,
+    "valueGrowthRateBase": 0,
+    "valueGrowthRateBear": 0,
+    "valueGrowthRateBull": 0,
+    "yearsBase": 0,
+    "yearsBear": 0,
+    "yearsBull": 0
+  },
+  "_createdBy": {
+    "$oid": "69fc1aa4dd5ec695061c1657"
+  },
+  "_updatedBy": {
+    "$oid": "69fc1aa4dd5ec695061c1657"
+  },
+  "buyProcess": [
+    {
+      "name": "Due Diligence",
+      "description": "Property is thoroughly vetted through inspection, conversations with property manager, Underwriting, Market Analysis, and Comparables Analysis. Offer is made.",
+      "date": {
+        "$date": "2026-04-13T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a04571e2caf888f226dd25c"
+      }
+    },
+    {
+      "name": "Under Contract",
+      "description": "Offer is accepted by seller with contingencies for minor repairs. Purchase Agreement is signed and due diligence materials are uploaded to the “documents” section.",
+      "date": {
+        "$date": "2026-05-01T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a04571e2caf888f226dd25d"
+      }
+    },
+    {
+      "name": "Raise",
+      "description": "Raise for equity purchase begins. ",
+      "date": {
+        "$date": "2026-05-14T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a04571e2caf888f226dd25e"
+      }
+    }
+  ],
+  "investorAccessList": [],
+  "createdAt": {
+    "$date": "2026-05-13T07:08:01.403Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-15T08:18:00.473Z"
+  },
+  "blockchainAddress": "0x5C3201544010B65Dfd509977b162cF23c8c4cE42",
+  "fireblocks": {
+    "vaultId": "13"
+  },
+  "mintedAt": {
+    "$date": "2026-05-13T11:40:01.262Z"
+  },
+  "rentalDocuments": [
+    {
+      "updatedAt": {
+        "$date": "2026-05-14T08:15:47.430Z"
+      },
+      "value": {
+        "contentType": "application/pdf",
+        "key": "Rental Agreement.pdf",
+        "path": "rentalDocument/Rental_Agreement_whhizy",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749756/rentalDocument/Rental_Agreement_whhizy.pdf",
+        "createdAt": {
+          "$date": "2026-05-14T08:15:47.434Z"
+        },
+        "sizeInMegaByte": 0.00273
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a0457f62caf888f226dd292"
+  },
+  "attom": {
+    "attomId": 184196315,
+    "apn": "09145-01-010-000",
+    "lotsize1": 0.1226584,
+    "lotsize2": 5343,
+    "area": 1774,
+    "lotnum": "3",
+    "blockNumber": "1",
+    "locationType": "VIEW - NONE",
+    "country": "US",
+    "state": "CO",
+    "city": "DENVER",
+    "areaTaxCode": "148E",
+    "line1": "6900 W GRANT RANCH BLVD UNIT 3",
+    "line2": "DENVER, CO 80123",
+    "zipCode": "80123",
+    "latitude": "39.617650",
+    "longitude": "-105.073697",
+    "propertyClass": "Single Family Residence / Townhouse",
+    "propertyType": "SFR",
+    "yearBuilt": 2020,
+    "bathTotal": 3,
+    "bedrooms": 2,
+    "levels": 1,
+    "avmamountchange": 2000,
+    "avmlastmonthvalue": 2000,
+    "avmpercentchange": 10
+  },
+  "otherInfo": {
+    "isOccupied": true,
+    "tags": [],
+    "pool": false,
+    "fireplace": false,
+    "garage": false,
+    "isTrending": false,
+    "isHidden": false,
+    "_manager": {
+      "$oid": "69fd6865da8ad702d48084e2"
+    },
+    "_market": {
+      "$oid": "6a06cf8d0a7a2730e62c181d"
+    },
+    "_owner": {
+      "$oid": "69fd6b6025f8a12230770fca"
+    },
+    "description": "<p>Mile High Residences&nbsp;offers premium residential living with contemporary architecture, high-end amenities, and excellent connectivity to downtown Denver. Surrounded by thriving business hubs, entertainment districts, and outdoor attractions, the property combines strong rental demand with long-term appreciation potential, making it ideal for fractional real estate investment.</p>",
+    "descriptionHeading": "Mile High Residences",
+    "descriptionSubHeading": "Modern luxury living in the heart of Denver’s fast-growing urban district",
+    "financedByImage": {
+      "_id": {
+        "$oid": "6a045b8b2caf888f226dd2a5"
+      },
+      "createdAt": {
+        "$date": "2026-05-13T11:07:55.393Z"
+      },
+      "contentType": "image/svg+xml",
+      "key": "occurrence_logo_new (1).svg",
+      "path": "images/ldkhtun0dw5c0ugpepet",
+      "url": "https://res.cloudinary.com/adil1010/raw/upload/v1778670462/images/ldkhtun0dw5c0ugpepet",
+      "sizeInMegaByte": 1177
+    },
+    "firstDividendsDate": {
+      "$date": "2025-02-13T16:37:00.000Z"
+    },
+    "interestRate": 5.5,
+    "managedByImage": {
+      "_id": {
+        "$oid": "6a045b8b2caf888f226dd2a6"
+      },
+      "createdAt": {
+        "$date": "2026-05-13T11:07:55.393Z"
+      },
+      "contentType": "image/svg+xml",
+      "key": "occurrence_logo_new.svg",
+      "path": "images/leqzt4idnekes4h2okvy",
+      "url": "https://res.cloudinary.com/adil1010/raw/upload/v1778670467/images/leqzt4idnekes4h2okvy",
+      "sizeInMegaByte": 1467
+    },
+    "occupiedLabel": "Holiday Rental Occupied",
+    "purchaseDate": {
+      "$date": "2024-01-25T16:37:00.000Z"
+    },
+    "quote": "An exceptional investment opportunity in one of Colorado’s most dynamic real estate markets.",
+    "title": "Mile High Residences",
+    "statusDescription": "Premium Miami condominium asset with strong rental demand and long-term appreciation potential.",
+    "checkoutDescription": "Secure fractional ownership in high-potential real estate assets and earn passive income through tokenized property investments.",
+    "checkoutHeading": "Invest in Miami Luxury Condominium Ownership",
+    "financedByName": "Candour",
+    "loanTerm": 60,
+    "managedByName": "Candour",
+    "estateId": "8"
+  },
+  "financials": {
+    "assetValue": 824980,
+    "closingCost": 1000,
+    "maintenanceReserve": 21840,
+    "maintenanceReserveAccountId": "1",
+    "vacancyReserve": 13000,
+    "vacancyReserveAccountId": "1",
+    "mogulBuyerFee": 6500,
+    "mogulSellerFee": 0,
+    "contingencyVar1": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a0457f62caf888f226dd28b"
+      }
+    },
+    "contingencyVar2": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a0457f62caf888f226dd28c"
+      }
+    },
+    "contingencyVar3": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a0457f62caf888f226dd28d"
+      }
+    },
+    "contingencyVar4": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a0457f62caf888f226dd28e"
+      }
+    },
+    "currentEquity": 259980,
+    "currentDebt": 565000,
+    "sellerEquity": 113370,
+    "mogulEquityToBuy": 113370,
+    "mogulEquityToSell": 75580,
+    "platformResaleFee": 3,
+    "yearlyInvReturn": "25%-30%",
+    "projectedInvGain": "250%-300%",
+    "defaultRentGrowth": 5,
+    "defaultAnnualAppreciation": 10,
+    "defaultTokensPurchased": 250,
+    "propertyValues": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T05:08:59.804Z"
+        },
+        "value": 867320,
+        "_id": {
+          "$oid": "6a0558eb2caf888f226dd6a1"
+        }
+      },
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T07:07:47.651Z"
+        },
+        "value": 867320,
+        "_id": {
+          "$oid": "6a0574c38129cb78a17a406a"
+        }
+      }
+    ],
+    "assetValues": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T05:08:59.804Z"
+        },
+        "value": 824980,
+        "_id": {
+          "$oid": "6a0558eb2caf888f226dd6a2"
+        }
+      },
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T07:07:47.653Z"
+        },
+        "value": 824980,
+        "_id": {
+          "$oid": "6a0574c38129cb78a17a406b"
+        }
+      }
+    ],
+    "leveragedCashflowMargin": [
+      "1.80875032235809",
+      "1.80648370079632",
+      "2.77148578766119",
+      "3.87480528283506",
+      "8.46063098081505"
+    ],
+    "defaultMonthlyRent": 3500,
+    "brexPaymentInstrumentId": "1",
+    "brexRentAccountRecipientId": "1"
+  },
+  "documents": {
+    "others": [
+      {
+        "contentType": "application/pdf",
+        "key": "Property Valuation Report.pdf",
+        "path": "documents/Property_Valuation_Report_z0m5en",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749746/documents/Property_Valuation_Report_z0m5en.pdf",
+        "createdAt": {
+          "$date": "2026-05-14T08:15:12.283Z"
+        },
+        "sizeInMegaByte": 0.00273
+      }
+    ],
+    "main": {
+      "createdAt": {
+        "$date": "2026-05-14T08:15:12.283Z"
+      },
+      "contentType": "application/pdf",
+      "key": "Property Title Deed.pdf",
+      "path": "mainDoc/Property_Title_Deed_qshuz2",
+      "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749716/mainDoc/Property_Title_Deed_qshuz2.pdf",
+      "sizeInMegaByte": 0.00273
+    }
+  },
+  "images": {
+    "list": [
+      {
+        "contentType": "image/jpeg",
+        "key": "webaliser-_TPTXZd9mOo-unsplash.jpg",
+        "path": "images/j7joq8bxnabsunqqkxhy",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778672685/images/j7joq8bxnabsunqqkxhy.jpg",
+        "_id": {
+          "$oid": "6a04685c2caf888f226dd3e1"
+        },
+        "createdAt": {
+          "$date": "2026-05-13T12:02:36.714Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "sanibell-bv-530lZQXMKGw-unsplash.jpg",
+        "path": "images/g1im4teg58s7alzyrkuv",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778672723/images/g1im4teg58s7alzyrkuv.jpg",
+        "_id": {
+          "$oid": "6a04685c2caf888f226dd3e2"
+        },
+        "createdAt": {
+          "$date": "2026-05-13T12:02:36.714Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "spacejoy-RUvW1KGD9a4-unsplash.jpg",
+        "path": "images/yv1kfx1l93e5syevtdsc",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778672748/images/yv1kfx1l93e5syevtdsc.jpg",
+        "_id": {
+          "$oid": "6a04685c2caf888f226dd3e3"
+        },
+        "createdAt": {
+          "$date": "2026-05-13T12:02:36.714Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "meg-von-haartman-E9uIBbF_r_0-unsplash.jpg",
+        "path": "images/rjlvq8pg6bdtjlosq7ss",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778672780/images/rjlvq8pg6bdtjlosq7ss.jpg",
+        "_id": {
+          "$oid": "6a04685c2caf888f226dd3e4"
+        },
+        "createdAt": {
+          "$date": "2026-05-13T12:02:36.715Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "shaun-montero-ZxDX8D9HHNM-unsplash.jpg",
+        "path": "images/sclrqubj2nuq5yht9muc",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778673746/images/sclrqubj2nuq5yht9muc.jpg",
+        "_id": {
+          "$oid": "6a04685c2caf888f226dd3e5"
+        },
+        "createdAt": {
+          "$date": "2026-05-13T12:02:36.715Z"
+        }
+      }
+    ],
+    "mainImage": 0
+  },
+  "cashflow": {
+    "propertyMgtFee": {
+      "isEnabled": false,
+      "_id": {
+        "$oid": "6a0457f62caf888f226dd28f"
+      }
+    },
+    "LLCAdministrationFee": {
+      "isEnabled": false,
+      "_id": {
+        "$oid": "6a0457f62caf888f226dd290"
+      }
+    },
+    "HOAFee": {
+      "isEnabled": false,
+      "_id": {
+        "$oid": "6a0457f62caf888f226dd291"
+      }
+    },
+    "monthlyRent": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T06:30:41.625Z"
+        },
+        "value": 3500,
+        "_id": {
+          "$oid": "6a056c112caf888f226dd8c2"
+        }
+      }
+    ],
+    "rentalDocuments": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T05:08:17.834Z"
+        },
+        "value": {
+          "contentType": "application/pdf",
+          "key": "sample_house_rent_agreement.pdf",
+          "path": "rentalDocument/bml19afewytgfnrwes1a",
+          "url": "https://res.cloudinary.com/adil1010/image/upload/v1778735280/rentalDocument/bml19afewytgfnrwes1a.pdf",
+          "_id": {
+            "$oid": "6a0558c12caf888f226dd65b"
+          },
+          "createdAt": {
+            "$date": "2026-05-14T05:08:17.836Z"
+          }
+        },
+        "_id": {
+          "$oid": "6a0558c12caf888f226dd65a"
+        }
+      }
+    ],
+    "annualRentGrowth": 15,
+    "insurance": 28,
+    "interest": 10,
+    "maxMaintenanceFee": 25,
+    "maxVacancyFee": 25,
+    "mortgage": 2122,
+    "principal": 2100,
+    "taxes": 12
+  },
+  "crowdSale": {
+    "isMogulEquityBought": false,
+    "minInvestment": 250,
+    "numberOfTokens": 302320,
+    "startDate": {
+      "$date": "2026-05-13T18:30:00.000Z"
+    },
+    "stopDate": {
+      "$date": "2026-08-26T18:30:00.000Z"
+    },
+    "tokensForSale": 75580
+  },
+  "status": "OnSale",
+  "investorAccessStatus": false,
+  "underwriting": {
+    "monthlyRentalIncomeBase": 0,
+    "monthlyRentalIncomeBear": 0,
+    "monthlyRentalIncomeBull": 0,
+    "rentalIncomeGrowthRateBase": 0,
+    "rentalIncomeGrowthRateBear": 0,
+    "rentalIncomeGrowthRateBull": 0,
+    "yearlyPropertyTaxesBase": 0,
+    "hoaDuesBase": 0,
+    "homeownersInsuranceBase": 0,
+    "propertyManagementBase": 0,
+    "miscCostsBase": 0,
+    "expensesGrowthRateBase": 0,
+    "expensesGrowthRateBear": 0,
+    "expensesGrowthRateBull": 0,
+    "valueGrowthRateBase": 0,
+    "valueGrowthRateBear": 0,
+    "valueGrowthRateBull": 0,
+    "yearsBase": 0,
+    "yearsBear": 0,
+    "yearsBull": 0
+  },
+  "_createdBy": {
+    "$oid": "69fc1aa4dd5ec695061c1657"
+  },
+  "_updatedBy": {
+    "$oid": "69fc1aa4dd5ec695061c1657"
+  },
+  "buyProcess": [
+    {
+      "name": "Property audit",
+      "description": "Property audit was done properly",
+      "date": {
+        "$date": "2026-05-01T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a01c867575593a598d1ceb5"
+      }
+    },
+    {
+      "name": "Documents review",
+      "description": "Documents review",
+      "date": {
+        "$date": "2026-05-04T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a01c867575593a598d1ceb6"
+      }
+    },
+    {
+      "name": "Agreement signed",
+      "description": "Agreement signed",
+      "date": {
+        "$date": "2026-05-07T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a01c867575593a598d1ceb7"
+      }
+    }
+  ],
+  "investorAccessList": [],
+  "createdAt": {
+    "$date": "2026-05-13T10:52:38.951Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T06:47:56.193Z"
+  },
+  "blockchainAddress": "0xf50D1BFee7D155a5f2308C1c7fDA1Bff272aEc54",
+  "fireblocks": {
+    "vaultId": "15"
+  },
+  "mintedAt": {
+    "$date": "2026-05-14T05:28:09.197Z"
+  },
+  "rentalDocuments": [
+    {
+      "updatedAt": {
+        "$date": "2026-05-14T08:15:47.430Z"
+      },
+      "value": {
+        "contentType": "application/pdf",
+        "key": "Rental Agreement.pdf",
+        "path": "rentalDocument/Rental_Agreement_whhizy",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749756/rentalDocument/Rental_Agreement_whhizy.pdf",
+        "createdAt": {
+          "$date": "2026-05-14T08:15:47.434Z"
+        },
+        "sizeInMegaByte": 0.00273
+      }
+    }
+  ],
+  "rationale": {
+    "description": "<p>This property offers an excellent combination of location, value, lifestyle, and long-term growth potential. Situated in a desirable area with convenient access to schools, transportation, shopping, and essential amenities, it provides both comfort for residents and strong appeal for future buyers or tenants. The property’s layout, condition, and surrounding market trends make it a compelling opportunity for homeowners and investors seeking stability, appreciation potential, and reliable returns in the real estate market.</p>",
+    "heading": "Why This Property Is a Smart Investment"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a045d632caf888f226dd2df"
+  },
+  "attom": {
+    "attomId": 46288947,
+    "apn": "30-3053-035-0010",
+    "area": 1030,
+    "blockNumber": "1",
+    "country": "US",
+    "state": "FL",
+    "city": "MIAMI",
+    "areaTaxCode": "3000",
+    "line1": "8625 NW 8TH ST",
+    "line2": "MIAMI, FL 33126",
+    "zipCode": "33126",
+    "latitude": "25.778873",
+    "longitude": "-80.335124",
+    "propertyClass": "Condominium (residential)",
+    "propertyType": "CONDOMINIUM",
+    "yearBuilt": 2021,
+    "bathTotal": 2,
+    "bedrooms": 2,
+    "avmamountchange": 120,
+    "avmlastmonthvalue": 100,
+    "avmpercentchange": 5,
+    "levels": 2,
+    "locationType": "VIEW - NONE",
+    "lotnum": "11",
+    "lotsize1": 0.1226584,
+    "lotsize2": 5343
+  },
+  "otherInfo": {
+    "isOccupied": true,
+    "tags": [
+      "Condominium",
+      "Luxury Living",
+      "Urban Investment"
+    ],
+    "pool": false,
+    "fireplace": false,
+    "garage": false,
+    "isTrending": false,
+    "isHidden": false,
+    "_manager": {
+      "$oid": "69fd6865da8ad702d48084e2"
+    },
+    "_market": {
+      "$oid": "6a06cf8d0a7a2730e62c181e"
+    },
+    "_owner": {
+      "$oid": "6a01b931cbe7082bbbc3b953"
+    },
+    "checkoutDescription": "Own fractional shares in a high-value Miami condominium and generate passive income through professionally managed real estate investments.",
+    "checkoutHeading": "Invest in Miami Luxury Condominium Ownership",
+    "description": "<p>Miami Skyline Condominiums offers luxury waterfront living with modern amenities, premium interiors, and strong rental performance in one of Florida’s most desirable real estate markets. Positioned near major lifestyle, entertainment, and business districts, the property provides an ideal combination of income generation and long-term growth potential.</p>",
+    "descriptionHeading": "Skyline Elite Condominiums",
+    "descriptionSubHeading": "Premium urban condominium offering luxury living and strong rental demand",
+    "financedByImage": {
+      "_id": {
+        "$oid": "6a0460d12caf888f226dd2f2"
+      },
+      "createdAt": {
+        "$date": "2026-05-13T11:30:25.318Z"
+      },
+      "contentType": "image/svg+xml",
+      "key": "occurrence_logo_new.svg",
+      "path": "images/pi3iqy5qc9xdjug0g41h",
+      "url": "https://res.cloudinary.com/adil1010/raw/upload/v1778671611/images/pi3iqy5qc9xdjug0g41h",
+      "sizeInMegaByte": 1467
+    },
+    "financedByName": "candour",
+    "firstDividendsDate": {
+      "$date": "2026-04-30T15:52:00.000Z"
+    },
+    "interestRate": 6,
+    "loanTerm": 85,
+    "managedByImage": {
+      "_id": {
+        "$oid": "6a0460d12caf888f226dd2f3"
+      },
+      "createdAt": {
+        "$date": "2026-05-13T11:30:25.318Z"
+      },
+      "contentType": "image/svg+xml",
+      "key": "occurrence_logo_new.svg",
+      "path": "images/aiiv1pfmyyra8jcotj95",
+      "url": "https://res.cloudinary.com/adil1010/raw/upload/v1778671675/images/aiiv1pfmyyra8jcotj95",
+      "sizeInMegaByte": 1467
+    },
+    "managedByName": "candour",
+    "occupiedLabel": "Owner & Tenant Occupied",
+    "purchaseDate": {
+      "$date": "2025-01-27T16:52:00.000Z"
+    },
+    "quote": "A modern condominium asset positioned for stable growth and long-term value.",
+    "statusDescription": "Premium Miami condominium asset with strong rental demand and long-term appreciation potential.",
+    "title": "Silicon Ht Apartments",
+    "estateId": "7"
+  },
+  "financials": {
+    "assetValue": 752960,
+    "closingCost": 1000,
+    "maintenanceReserve": 21840,
+    "maintenanceReserveAccountId": "1",
+    "vacancyReserve": 13000,
+    "vacancyReserveAccountId": "1",
+    "mogulBuyerFee": 6500,
+    "mogulSellerFee": 100,
+    "contingencyVar1": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a045d632caf888f226dd2d8"
+      }
+    },
+    "contingencyVar2": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a045d632caf888f226dd2d9"
+      }
+    },
+    "contingencyVar3": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a045d632caf888f226dd2da"
+      }
+    },
+    "contingencyVar4": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a045d632caf888f226dd2db"
+      }
+    },
+    "currentEquity": 187960,
+    "currentDebt": 565000,
+    "sellerEquity": 57575,
+    "mogulEquityToBuy": 57575,
+    "mogulEquityToSell": 115150,
+    "platformResaleFee": 3,
+    "yearlyInvReturn": "25%-30%",
+    "projectedInvGain": "250%-280%",
+    "defaultRentGrowth": 10,
+    "defaultAnnualAppreciation": 15,
+    "defaultTokensPurchased": 300,
+    "propertyValues": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T04:42:02.629Z"
+        },
+        "value": 795300,
+        "_id": {
+          "$oid": "6a05529a2caf888f226dd465"
+        }
+      },
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T07:09:22.599Z"
+        },
+        "value": 795300,
+        "_id": {
+          "$oid": "6a0575228129cb78a17a40a1"
+        }
+      }
+    ],
+    "assetValues": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T04:42:02.629Z"
+        },
+        "value": 752960,
+        "_id": {
+          "$oid": "6a05529a2caf888f226dd466"
+        }
+      },
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T07:09:22.599Z"
+        },
+        "value": 752960,
+        "_id": {
+          "$oid": "6a0575228129cb78a17a40a2"
+        }
+      }
+    ],
+    "leveragedCashflowMargin": [
+      "1.80875032235809",
+      "1.80648370079632",
+      "2.77148578766119",
+      "3.87480528283506",
+      "8.46063098081505"
+    ],
+    "defaultMonthlyRent": 3850,
+    "brexPaymentInstrumentId": "1",
+    "brexRentAccountRecipientId": "1"
+  },
+  "documents": {
+    "others": [
+      {
+        "contentType": "application/pdf",
+        "key": "Property Valuation Report.pdf",
+        "path": "documents/Property_Valuation_Report_z0m5en",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749746/documents/Property_Valuation_Report_z0m5en.pdf",
+        "createdAt": {
+          "$date": "2026-05-14T08:15:12.283Z"
+        },
+        "sizeInMegaByte": 0.00273
+      }
+    ],
+    "main": {
+      "createdAt": {
+        "$date": "2026-05-14T08:15:12.283Z"
+      },
+      "contentType": "application/pdf",
+      "key": "Property Title Deed.pdf",
+      "path": "mainDoc/Property_Title_Deed_qshuz2",
+      "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749716/mainDoc/Property_Title_Deed_qshuz2.pdf",
+      "sizeInMegaByte": 0.00273
+    }
+  },
+  "images": {
+    "list": [
+      {
+        "contentType": "image/webp",
+        "key": "1776734501.webp",
+        "path": "images/tkzinxyrllkem76czw83",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778734500/images/tkzinxyrllkem76czw83.webp",
+        "_id": {
+          "$oid": "6a0555b82caf888f226dd4d9"
+        },
+        "createdAt": {
+          "$date": "2026-05-14T04:55:20.144Z"
+        }
+      },
+      {
+        "contentType": "image/webp",
+        "key": "1776734503 (1).webp",
+        "path": "images/gjkhd7wsp3x20grkpsmn",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778734514/images/gjkhd7wsp3x20grkpsmn.webp",
+        "_id": {
+          "$oid": "6a0555b82caf888f226dd4da"
+        },
+        "createdAt": {
+          "$date": "2026-05-14T04:55:20.145Z"
+        }
+      },
+      {
+        "contentType": "image/webp",
+        "key": "1776734503.webp",
+        "path": "images/slqenitrdl6a3iaiznsg",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778734514/images/slqenitrdl6a3iaiznsg.webp",
+        "_id": {
+          "$oid": "6a0555b82caf888f226dd4db"
+        },
+        "createdAt": {
+          "$date": "2026-05-14T04:55:20.145Z"
+        }
+      },
+      {
+        "contentType": "image/webp",
+        "key": "1776734504 (1).webp",
+        "path": "images/k4zkgoy1pvhcrehqqzab",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778734515/images/k4zkgoy1pvhcrehqqzab.webp",
+        "_id": {
+          "$oid": "6a0555b82caf888f226dd4dc"
+        },
+        "createdAt": {
+          "$date": "2026-05-14T04:55:20.145Z"
+        }
+      },
+      {
+        "contentType": "image/webp",
+        "key": "1776734504.webp",
+        "path": "images/acdoqzkicx7yh7aanptj",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778734516/images/acdoqzkicx7yh7aanptj.webp",
+        "_id": {
+          "$oid": "6a0555b82caf888f226dd4dd"
+        },
+        "createdAt": {
+          "$date": "2026-05-14T04:55:20.145Z"
+        }
+      }
+    ],
+    "mainImage": 0
+  },
+  "cashflow": {
+    "propertyMgtFee": {
+      "isEnabled": true,
+      "_id": {
+        "$oid": "6a045d632caf888f226dd2dc"
+      },
+      "value": 7
+    },
+    "LLCAdministrationFee": {
+      "isEnabled": false,
+      "_id": {
+        "$oid": "6a045d632caf888f226dd2dd"
+      }
+    },
+    "HOAFee": {
+      "isEnabled": true,
+      "_id": {
+        "$oid": "6a045d632caf888f226dd2de"
+      },
+      "value": 511
+    },
+    "monthlyRent": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T05:00:02.077Z"
+        },
+        "value": 3500,
+        "_id": {
+          "$oid": "6a0556d22caf888f226dd521"
+        }
+      }
+    ],
+    "rentalDocuments": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T05:00:02.077Z"
+        },
+        "value": {
+          "contentType": "application/pdf",
+          "key": "sample_house_rent_agreement.pdf",
+          "path": "rentalDocument/wbaporuqa1ziz271dzim",
+          "url": "https://res.cloudinary.com/adil1010/image/upload/v1778734767/rentalDocument/wbaporuqa1ziz271dzim.pdf",
+          "_id": {
+            "$oid": "6a0556d22caf888f226dd523"
+          },
+          "createdAt": {
+            "$date": "2026-05-14T05:00:02.080Z"
+          }
+        },
+        "_id": {
+          "$oid": "6a0556d22caf888f226dd522"
+        }
+      }
+    ],
+    "annualRentGrowth": 3,
+    "insurance": 58,
+    "interest": 58,
+    "maxMaintenanceFee": 10,
+    "maxVacancyFee": 10,
+    "mortgage": 3075,
+    "principal": 2100,
+    "taxes": 917
+  },
+  "crowdSale": {
+    "isMogulEquityBought": false,
+    "minInvestment": 500,
+    "numberOfTokens": 230300,
+    "startDate": {
+      "$date": "2026-05-13T18:30:00.000Z"
+    },
+    "stopDate": {
+      "$date": "2026-07-30T18:30:00.000Z"
+    },
+    "tokensForSale": 115150
+  },
+  "status": "OnSale",
+  "investorAccessStatus": false,
+  "underwriting": {
+    "monthlyRentalIncomeBase": 0,
+    "monthlyRentalIncomeBear": 0,
+    "monthlyRentalIncomeBull": 0,
+    "rentalIncomeGrowthRateBase": 0,
+    "rentalIncomeGrowthRateBear": 0,
+    "rentalIncomeGrowthRateBull": 0,
+    "yearlyPropertyTaxesBase": 0,
+    "hoaDuesBase": 0,
+    "homeownersInsuranceBase": 0,
+    "propertyManagementBase": 0,
+    "miscCostsBase": 0,
+    "expensesGrowthRateBase": 0,
+    "expensesGrowthRateBear": 0,
+    "expensesGrowthRateBull": 0,
+    "valueGrowthRateBase": 0,
+    "valueGrowthRateBear": 0,
+    "valueGrowthRateBull": 0,
+    "yearsBase": 0,
+    "yearsBear": 0,
+    "yearsBull": 0
+  },
+  "_createdBy": {
+    "$oid": "69fc1aa4dd5ec695061c1657"
+  },
+  "_updatedBy": {
+    "$oid": "69fc1aa4dd5ec695061c1657"
+  },
+  "buyProcess": [
+    {
+      "name": "Due Diligence",
+      "description": "Property is thoroughly vetted through inspection, conversations with property manager, Underwriting, Market Analysis, and Comparables Analysis. Offer is made.",
+      "date": {
+        "$date": "2026-04-30T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a05574d2caf888f226dd54b"
+      }
+    },
+    {
+      "name": "Under Contract",
+      "description": "Offer is accepted by seller with contingencies for minor repairs. Purchase Agreement is signed and due diligence materials are uploaded to the “documents” section.",
+      "date": {
+        "$date": "2026-05-03T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a05574d2caf888f226dd54c"
+      }
+    },
+    {
+      "name": "Raise",
+      "description": "Raise for equity purchase begins.",
+      "date": {
+        "$date": "2026-03-21T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a05574d2caf888f226dd54d"
+      }
+    }
+  ],
+  "investorAccessList": [],
+  "createdAt": {
+    "$date": "2026-05-13T11:15:47.564Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-15T08:18:27.122Z"
+  },
+  "blockchainAddress": "0x6A070C21293F0B7eEd2f146b6a840e874E1AD6b6",
+  "fireblocks": {
+    "vaultId": "14"
+  },
+  "mintedAt": {
+    "$date": "2026-05-14T05:02:16.930Z"
+  },
+  "rentalDocuments": [
+    {
+      "updatedAt": {
+        "$date": "2026-05-14T08:15:47.430Z"
+      },
+      "value": {
+        "contentType": "application/pdf",
+        "key": "Rental Agreement.pdf",
+        "path": "rentalDocument/Rental_Agreement_whhizy",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749756/rentalDocument/Rental_Agreement_whhizy.pdf",
+        "createdAt": {
+          "$date": "2026-05-14T08:15:47.434Z"
+        },
+        "sizeInMegaByte": 0.00273
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a05731a2caf888f226dda33"
+  },
+  "attom": {
+    "attomId": 12121789,
+    "apn": "FFLD M:79 B:622",
+    "lotsize1": 0.115,
+    "lotsize2": 5000,
+    "area": 1519,
+    "blockNumber": "622",
+    "country": "US",
+    "state": "CT",
+    "city": "FAIRFIELD",
+    "areaTaxCode": "02 2J 2U 68",
+    "line1": "37 PRINCE ST",
+    "line2": "FAIRFIELD, CT 06825",
+    "zipCode": "06825",
+    "latitude": "41.171704",
+    "longitude": "-73.233835",
+    "propertyClass": "Single Family Residence / Townhouse",
+    "propertyType": "SFR",
+    "yearBuilt": 2022,
+    "bathTotal": 1.5,
+    "bedrooms": 3,
+    "levels": 2,
+    "avmamountchange": 120,
+    "avmlastmonthvalue": 100,
+    "avmpercentchange": 5,
+    "locationType": "VIEW - NONE",
+    "lotnum": "5"
+  },
+  "otherInfo": {
+    "isOccupied": true,
+    "tags": [
+      "Condominium",
+      "Suburban Luxury",
+      "Stable Returns"
+    ],
+    "pool": false,
+    "fireplace": false,
+    "garage": true,
+    "isTrending": false,
+    "isHidden": false,
+    "_manager": {
+      "$oid": "6a0578360a3adcc38fc5763e"
+    },
+    "_market": {
+      "$oid": "6a06bb39f6b203990ed6d79c"
+    },
+    "_owner": {
+      "$oid": "6a01b931cbe7082bbbc3b953"
+    },
+    "checkoutDescription": "Access fractional ownership in a luxury Connecticut condominium property designed for stable rental income and long-term value appreciation.",
+    "checkoutHeading": "Invest in Fairfield Premium Residential Real Estate",
+    "description": "<p>Fairfield Grand Residences is a premium condominium property located within one of Connecticut’s most desirable residential communities. Featuring spacious modern interiors, luxury amenities, landscaped surroundings, and excellent connectivity to New York metropolitan areas, the property benefits from strong residential demand and long-term appreciation potential. Its stable tenant occupancy and affluent neighborhood positioning make it an attractive opportunity for fractional real estate investment and passive income generation.</p>",
+    "descriptionHeading": "Fairfield Grand Residences",
+    "descriptionSubHeading": "Premium suburban condominium property in Connecticut’s high-income residential corridor",
+    "financedByImage": {
+      "_id": {
+        "$oid": "6a0576118129cb78a17a412b"
+      },
+      "createdAt": {
+        "$date": "2026-05-14T07:13:21.573Z"
+      },
+      "contentType": "image/svg+xml",
+      "key": "occurrence_logo_new (1).svg",
+      "path": "images/o7mabm6bu3oyzyqhefs2",
+      "url": "https://res.cloudinary.com/adil1010/raw/upload/v1778742766/images/o7mabm6bu3oyzyqhefs2",
+      "sizeInMegaByte": 1177
+    },
+    "financedByName": "candour",
+    "firstDividendsDate": {
+      "$date": "2026-05-05T11:40:00.000Z"
+    },
+    "interestRate": 7.2,
+    "loanTerm": 60,
+    "managedByImage": {
+      "_id": {
+        "$oid": "6a0576118129cb78a17a412c"
+      },
+      "createdAt": {
+        "$date": "2026-05-14T07:13:21.573Z"
+      },
+      "contentType": "image/svg+xml",
+      "key": "occurrence_logo_new (1).svg",
+      "path": "images/gu3p99k5yezpvpjrsav3",
+      "url": "https://res.cloudinary.com/adil1010/raw/upload/v1778742773/images/gu3p99k5yezpvpjrsav3",
+      "sizeInMegaByte": 1177
+    },
+    "managedByName": "candour",
+    "purchaseDate": {
+      "$date": "2026-04-03T11:39:00.000Z"
+    },
+    "quote": "A balanced real estate asset combining stability, lifestyle appeal, and long-term appreciation.",
+    "statusDescription": "High-quality residential asset with stable occupancy and consistent long-term investment potential.",
+    "title": "Marina Skyline Tower",
+    "occupiedLabel": "Owner & Tenant Occupied",
+    "estateId": "9"
+  },
+  "financials": {
+    "contingencyVar1": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a05731a2caf888f226dda2c"
+      }
+    },
+    "contingencyVar2": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a05731a2caf888f226dda2d"
+      }
+    },
+    "contingencyVar3": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a05731a2caf888f226dda2e"
+      }
+    },
+    "contingencyVar4": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a05731a2caf888f226dda2f"
+      }
+    },
+    "leveragedCashflowMargin": [
+      "1.80875032235809",
+      "1.80648370079632",
+      "2.77148578766119",
+      "3.87480528283506",
+      "8.46063098081505"
+    ],
+    "propertyValues": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T07:51:59.796Z"
+        },
+        "value": 682340,
+        "_id": {
+          "$oid": "6a057f1f1ab9839313f86081"
+        }
+      }
+    ],
+    "assetValues": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T07:51:59.796Z"
+        },
+        "value": 640000,
+        "_id": {
+          "$oid": "6a057f1f1ab9839313f86082"
+        }
+      }
+    ],
+    "assetValue": 640000,
+    "brexPaymentInstrumentId": "1",
+    "brexRentAccountRecipientId": "1",
+    "closingCost": 1000,
+    "currentDebt": 460000,
+    "currentEquity": 180000,
+    "defaultAnnualAppreciation": 25,
+    "defaultMonthlyRent": 2580,
+    "defaultRentGrowth": 12,
+    "defaultTokensPurchased": 700,
+    "maintenanceReserve": 21840,
+    "maintenanceReserveAccountId": "1",
+    "mogulBuyerFee": 6500,
+    "mogulEquityToBuy": 57575,
+    "mogulEquityToSell": 107190,
+    "platformResaleFee": 3,
+    "projectedInvGain": "220%-280%",
+    "sellerEquity": 57575,
+    "vacancyReserve": 13000,
+    "vacancyReserveAccountId": "1",
+    "yearlyInvReturn": "25%-30%",
+    "mogulSellerFee": 0
+  },
+  "documents": {
+    "others": [
+      {
+        "contentType": "application/pdf",
+        "key": "Property Valuation Report.pdf",
+        "path": "documents/Property_Valuation_Report_z0m5en",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749746/documents/Property_Valuation_Report_z0m5en.pdf",
+        "createdAt": {
+          "$date": "2026-05-14T08:15:12.283Z"
+        },
+        "sizeInMegaByte": 0.00273
+      }
+    ],
+    "main": {
+      "createdAt": {
+        "$date": "2026-05-14T08:15:12.283Z"
+      },
+      "contentType": "application/pdf",
+      "key": "Property Title Deed.pdf",
+      "path": "mainDoc/Property_Title_Deed_qshuz2",
+      "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749716/mainDoc/Property_Title_Deed_qshuz2.pdf",
+      "sizeInMegaByte": 0.00273
+    }
+  },
+  "images": {
+    "list": [
+      {
+        "contentType": "image/jpeg",
+        "key": "steven-ungermann-ydudT6TqqmI-unsplash.jpg",
+        "path": "images/jcnqobstf47votw1ha6b",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778744136/images/jcnqobstf47votw1ha6b.jpg",
+        "_id": {
+          "$oid": "6a057b8d0a3adcc38fc57732"
+        },
+        "createdAt": {
+          "$date": "2026-05-14T07:36:45.178Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "dillon-kydd-2keCPb73aQY-unsplash.jpg",
+        "path": "images/s32pblavahyerjclux4x",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778744137/images/s32pblavahyerjclux4x.jpg",
+        "_id": {
+          "$oid": "6a057b8d0a3adcc38fc57733"
+        },
+        "createdAt": {
+          "$date": "2026-05-14T07:36:45.179Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "clay-elliot-Dx2t4hutl6U-unsplash.jpg",
+        "path": "images/t4rtfvujldaazoqei2fp",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778744182/images/t4rtfvujldaazoqei2fp.jpg",
+        "_id": {
+          "$oid": "6a057b8d0a3adcc38fc57734"
+        },
+        "createdAt": {
+          "$date": "2026-05-14T07:36:45.179Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "naomi-hebert-MP0bgaS_d1c-unsplash (1).jpg",
+        "path": "images/gpbbdrfbypunlqsbskb3",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778744183/images/gpbbdrfbypunlqsbskb3.jpg",
+        "_id": {
+          "$oid": "6a057b8d0a3adcc38fc57735"
+        },
+        "createdAt": {
+          "$date": "2026-05-14T07:36:45.179Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "francesca-tosolini-tHkJAMcO3QE-unsplash.jpg",
+        "path": "images/irpnrsbdz2dnkc4ryoun",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778744184/images/irpnrsbdz2dnkc4ryoun.jpg",
+        "_id": {
+          "$oid": "6a057b8d0a3adcc38fc57736"
+        },
+        "createdAt": {
+          "$date": "2026-05-14T07:36:45.179Z"
+        }
+      }
+    ],
+    "mainImage": 1
+  },
+  "cashflow": {
+    "propertyMgtFee": {
+      "isEnabled": true,
+      "_id": {
+        "$oid": "6a05731a2caf888f226dda30"
+      },
+      "value": 80
+    },
+    "LLCAdministrationFee": {
+      "isEnabled": false,
+      "_id": {
+        "$oid": "6a05731a2caf888f226dda31"
+      }
+    },
+    "HOAFee": {
+      "isEnabled": false,
+      "_id": {
+        "$oid": "6a05731a2caf888f226dda32"
+      }
+    },
+    "monthlyRent": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T07:29:15.133Z"
+        },
+        "value": 3500,
+        "_id": {
+          "$oid": "6a0579cb0a3adcc38fc576f4"
+        }
+      }
+    ],
+    "rentalDocuments": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T07:29:15.133Z"
+        },
+        "value": {
+          "contentType": "application/pdf",
+          "key": "Rental Agreement.pdf",
+          "path": "rentalDocument/tfh5dmj1hxrzrks7camj",
+          "url": "https://res.cloudinary.com/adil1010/image/upload/v1778743667/rentalDocument/tfh5dmj1hxrzrks7camj.pdf",
+          "_id": {
+            "$oid": "6a0579cb0a3adcc38fc576f6"
+          },
+          "createdAt": {
+            "$date": "2026-05-14T07:29:15.137Z"
+          }
+        },
+        "_id": {
+          "$oid": "6a0579cb0a3adcc38fc576f5"
+        }
+      }
+    ],
+    "annualRentGrowth": 3,
+    "insurance": 65,
+    "interest": 8.9,
+    "maxMaintenanceFee": 3100,
+    "maxVacancyFee": 890,
+    "mortgage": 2198.9,
+    "principal": 2100,
+    "taxes": 90
+  },
+  "crowdSale": {
+    "isMogulEquityBought": false,
+    "minInvestment": 500,
+    "numberOfTokens": 222340,
+    "startDate": {
+      "$date": "2026-05-14T18:30:00.000Z"
+    },
+    "stopDate": {
+      "$date": "2026-08-30T18:30:00.000Z"
+    },
+    "tokensForSale": 107190
+  },
+  "status": "OnSale",
+  "investorAccessStatus": false,
+  "underwriting": {
+    "monthlyRentalIncomeBase": 0,
+    "monthlyRentalIncomeBear": 0,
+    "monthlyRentalIncomeBull": 0,
+    "rentalIncomeGrowthRateBase": 0,
+    "rentalIncomeGrowthRateBear": 0,
+    "rentalIncomeGrowthRateBull": 0,
+    "yearlyPropertyTaxesBase": 0,
+    "hoaDuesBase": 0,
+    "homeownersInsuranceBase": 0,
+    "propertyManagementBase": 0,
+    "miscCostsBase": 0,
+    "expensesGrowthRateBase": 0,
+    "expensesGrowthRateBear": 0,
+    "expensesGrowthRateBull": 0,
+    "valueGrowthRateBase": 0,
+    "valueGrowthRateBear": 0,
+    "valueGrowthRateBull": 0,
+    "yearsBase": 0,
+    "yearsBear": 0,
+    "yearsBull": 0
+  },
+  "_createdBy": {
+    "$oid": "69fc1aa4dd5ec695061c1657"
+  },
+  "_updatedBy": {
+    "$oid": "69fc1aa4dd5ec695061c1657"
+  },
+  "buyProcess": [
+    {
+      "name": "Due Diligence",
+      "description": "Property is thoroughly vetted through inspection, conversations with property manager, Underwriting, Market Analysis, and Comparables Analysis. Offer is made.",
+      "date": {
+        "$date": "2026-04-30T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a05574d2caf888f226dd54b"
+      }
+    },
+    {
+      "name": "Under Contract",
+      "description": "Offer is accepted by seller with contingencies for minor repairs. Purchase Agreement is signed and due diligence materials are uploaded to the “documents” section.",
+      "date": {
+        "$date": "2026-05-03T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a05574d2caf888f226dd54c"
+      }
+    },
+    {
+      "name": "Raise",
+      "description": "Raise for equity purchase begins.",
+      "date": {
+        "$date": "2026-03-21T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a05574d2caf888f226dd54d"
+      }
+    }
+  ],
+  "investorAccessList": [],
+  "createdAt": {
+    "$date": "2026-05-14T07:00:42.269Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-15T08:06:32.811Z"
+  },
+  "blockchainAddress": "0xC38381366f7e68EBf718Eb82acDD5Beb18b341E6",
+  "fireblocks": {
+    "vaultId": "17"
+  },
+  "mintedAt": {
+    "$date": "2026-05-14T07:52:24.212Z"
+  },
+  "rentalDocuments": [
+    {
+      "updatedAt": {
+        "$date": "2026-05-14T08:15:47.430Z"
+      },
+      "value": {
+        "contentType": "application/pdf",
+        "key": "Rental Agreement.pdf",
+        "path": "rentalDocument/Rental_Agreement_whhizy",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749756/rentalDocument/Rental_Agreement_whhizy.pdf",
+        "createdAt": {
+          "$date": "2026-05-14T08:15:47.434Z"
+        },
+        "sizeInMegaByte": 0.00273
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a057ab30a3adcc38fc57706"
+  },
+  "attom": {
+    "attomId": 12121639,
+    "apn": "TRUM M:F-09 L:00070 U:000",
+    "lotsize1": 0.41,
+    "lotsize2": 17860,
+    "area": 2077,
+    "lotnum": "70",
+    "country": "US",
+    "state": "CT",
+    "city": "TRUMBULL",
+    "areaTaxCode": "02 2J 2U 68",
+    "line1": "61 WOODRIDGE CIR",
+    "line2": "TRUMBULL, CT 06611",
+    "zipCode": "06611",
+    "latitude": "41.240040",
+    "longitude": "-73.214933",
+    "propertyClass": "Single Family Residence / Townhouse",
+    "propertyType": "SFR",
+    "yearBuilt": 2020,
+    "bathTotal": 2.5,
+    "bedrooms": 4,
+    "levels": 2,
+    "avmamountchange": 120,
+    "avmlastmonthvalue": 100,
+    "avmpercentchange": 5,
+    "blockNumber": "37",
+    "locationType": "VIEW - NONE"
+  },
+  "otherInfo": {
+    "isOccupied": true,
+    "tags": [
+      "Condominium",
+      "Suburban Living",
+      "Long-Term Growth"
+    ],
+    "pool": false,
+    "fireplace": false,
+    "garage": false,
+    "isTrending": false,
+    "isHidden": false,
+    "_manager": {
+      "$oid": "69fd6865da8ad702d48084e2"
+    },
+    "_market": {
+      "$oid": "6a06cd63f6b203990ed6d885"
+    },
+    "_owner": {
+      "$oid": "6a01b931cbe7082bbbc3b953"
+    },
+    "checkoutDescription": "Own fractional shares in a premium suburban condominium property with reliable rental demand and long-term value growth.",
+    "checkoutHeading": "Invest in Connecticut Residential Real Estate",
+    "description": "<p>Trumbull Ridge Estates is a premium condominium community located in one of Connecticut’s most desirable suburban neighborhoods. The property offers spacious modern residences, landscaped surroundings, secure parking, and lifestyle-focused amenities designed for families and professionals. Its proximity to business centers, retail destinations, schools, and commuter routes supports strong residential demand and stable long-term investment performance.</p>",
+    "descriptionHeading": "Modern Residential Condominiums in Trumbull",
+    "descriptionSubHeading": "High-quality suburban residences with strong family and commuter demand",
+    "financedByImage": {
+      "_id": {
+        "$oid": "6a057da70a3adcc38fc577c9"
+      },
+      "createdAt": {
+        "$date": "2026-05-14T07:45:43.686Z"
+      },
+      "contentType": "image/svg+xml",
+      "key": "occurrence_logo_new (1).svg",
+      "path": "images/r2dncx4mtix6sm93czpt",
+      "url": "https://res.cloudinary.com/adil1010/raw/upload/v1778744713/images/r2dncx4mtix6sm93czpt",
+      "sizeInMegaByte": 1177
+    },
+    "firstDividendsDate": {
+      "$date": "2026-02-17T13:13:00.000Z"
+    },
+    "interestRate": 5.5,
+    "managedByImage": {
+      "_id": {
+        "$oid": "6a057da70a3adcc38fc577ca"
+      },
+      "createdAt": {
+        "$date": "2026-05-14T07:45:43.686Z"
+      },
+      "contentType": "image/svg+xml",
+      "key": "occurrence_logo_new (1).svg",
+      "path": "images/g1asqronyxvw8upjmy5a",
+      "url": "https://res.cloudinary.com/adil1010/raw/upload/v1778744719/images/g1asqronyxvw8upjmy5a",
+      "sizeInMegaByte": 1177
+    },
+    "occupiedLabel": "Occupied",
+    "purchaseDate": {
+      "$date": "2025-03-14T13:13:00.000Z"
+    },
+    "quote": "Suburban growth markets continue to deliver stability and long-term real estate value.",
+    "statusDescription": "Well-positioned residential property with stable occupancy and consistent appreciation potential.",
+    "title": "Trumbull Ridge Estates",
+    "financedByName": "Candour",
+    "loanTerm": 80,
+    "managedByName": "Candour",
+    "estateId": "10"
+  },
+  "financials": {
+    "assetValue": 780000,
+    "closingCost": 1000,
+    "maintenanceReserve": 21840,
+    "maintenanceReserveAccountId": "1",
+    "vacancyReserve": 13000,
+    "vacancyReserveAccountId": "1",
+    "mogulBuyerFee": 6500,
+    "mogulSellerFee": 0,
+    "contingencyVar1": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a057ab30a3adcc38fc576ff"
+      }
+    },
+    "contingencyVar2": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a057ab30a3adcc38fc57700"
+      }
+    },
+    "contingencyVar3": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a057ab30a3adcc38fc57701"
+      }
+    },
+    "contingencyVar4": {
+      "name": "",
+      "value": 0,
+      "applicable": false,
+      "_id": {
+        "$oid": "6a057ab30a3adcc38fc57702"
+      }
+    },
+    "currentEquity": 320000,
+    "currentDebt": 460000,
+    "sellerEquity": 57575,
+    "mogulEquityToBuy": 57575,
+    "mogulEquityToSell": 247190,
+    "platformResaleFee": 3,
+    "yearlyInvReturn": "25%-30%",
+    "projectedInvGain": "250%-300%",
+    "defaultRentGrowth": 10,
+    "defaultAnnualAppreciation": 10,
+    "defaultTokensPurchased": 500,
+    "propertyValues": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T08:16:01.961Z"
+        },
+        "value": 822340,
+        "_id": {
+          "$oid": "6a0584c11ab9839313f86199"
+        }
+      },
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T08:25:54.829Z"
+        },
+        "value": 822340,
+        "_id": {
+          "$oid": "6a0587121ab9839313f86345"
+        }
+      }
+    ],
+    "assetValues": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T08:16:01.961Z"
+        },
+        "value": 780000,
+        "_id": {
+          "$oid": "6a0584c11ab9839313f8619a"
+        }
+      },
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T08:25:54.829Z"
+        },
+        "value": 780000,
+        "_id": {
+          "$oid": "6a0587121ab9839313f86346"
+        }
+      }
+    ],
+    "leveragedCashflowMargin": [
+      "1.80875032235809",
+      "1.80648370079632",
+      "2.77148578766119",
+      "3.87480528283506",
+      "8.46063098081505"
+    ],
+    "defaultMonthlyRent": 3790,
+    "brexPaymentInstrumentId": "1",
+    "brexRentAccountRecipientId": "1"
+  },
+  "documents": {
+    "others": [
+      {
+        "contentType": "application/pdf",
+        "key": "Property Valuation Report.pdf",
+        "path": "documents/Property_Valuation_Report_z0m5en",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749746/documents/Property_Valuation_Report_z0m5en.pdf",
+        "createdAt": {
+          "$date": "2026-05-14T08:15:12.283Z"
+        },
+        "sizeInMegaByte": 0.00273
+      }
+    ],
+    "main": {
+      "createdAt": {
+        "$date": "2026-05-14T08:15:12.283Z"
+      },
+      "contentType": "application/pdf",
+      "key": "Property Title Deed.pdf",
+      "path": "mainDoc/Property_Title_Deed_qshuz2",
+      "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749716/mainDoc/Property_Title_Deed_qshuz2.pdf",
+      "sizeInMegaByte": 0.00273
+    }
+  },
+  "images": {
+    "list": [
+      {
+        "contentType": "image/jpeg",
+        "key": "ubeyonroad--Vu2dBIVaSk-unsplash.jpg",
+        "path": "images/cz9w9stziuafmdon3qlx",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778746447/images/cz9w9stziuafmdon3qlx.jpg",
+        "_id": {
+          "$oid": "6a0584801ab9839313f86143"
+        },
+        "createdAt": {
+          "$date": "2026-05-14T08:14:56.844Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "aes-DNn__-0jxVc-unsplash.jpg",
+        "path": "images/kypdrcnwhp5j4qsl1ojv",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778746470/images/kypdrcnwhp5j4qsl1ojv.jpg",
+        "_id": {
+          "$oid": "6a0584801ab9839313f86144"
+        },
+        "createdAt": {
+          "$date": "2026-05-14T08:14:56.844Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "aes-H2A4OAS4SCc-unsplash.jpg",
+        "path": "images/wcl3qgmb1gxasrnqmuvy",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778746471/images/wcl3qgmb1gxasrnqmuvy.jpg",
+        "_id": {
+          "$oid": "6a0584801ab9839313f86145"
+        },
+        "createdAt": {
+          "$date": "2026-05-14T08:14:56.844Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "aes-a7Cf-p-ShfA-unsplash.jpg",
+        "path": "images/eoqnixz0jqb2zcathedk",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778746472/images/eoqnixz0jqb2zcathedk.jpg",
+        "_id": {
+          "$oid": "6a0584801ab9839313f86146"
+        },
+        "createdAt": {
+          "$date": "2026-05-14T08:14:56.844Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "spacejoy-9M66C_w_ToM-unsplash.jpg",
+        "path": "images/ct8osxyemyhlapnhccjg",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778746493/images/ct8osxyemyhlapnhccjg.jpg",
+        "_id": {
+          "$oid": "6a0584801ab9839313f86147"
+        },
+        "createdAt": {
+          "$date": "2026-05-14T08:14:56.844Z"
+        }
+      },
+      {
+        "contentType": "image/jpeg",
+        "key": "carlos-masias-yg8zkwBS30Q-unsplash.jpg",
+        "path": "images/icvoji9vxn8o9zkeeln5",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778746494/images/icvoji9vxn8o9zkeeln5.jpg",
+        "_id": {
+          "$oid": "6a0584801ab9839313f86148"
+        },
+        "createdAt": {
+          "$date": "2026-05-14T08:14:56.844Z"
+        }
+      }
+    ],
+    "mainImage": 0
+  },
+  "cashflow": {
+    "propertyMgtFee": {
+      "isEnabled": false,
+      "_id": {
+        "$oid": "6a057ab30a3adcc38fc57703"
+      }
+    },
+    "LLCAdministrationFee": {
+      "isEnabled": false,
+      "_id": {
+        "$oid": "6a057ab30a3adcc38fc57704"
+      }
+    },
+    "HOAFee": {
+      "isEnabled": false,
+      "_id": {
+        "$oid": "6a057ab30a3adcc38fc57705"
+      }
+    },
+    "monthlyRent": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T08:15:47.430Z"
+        },
+        "value": 3500,
+        "_id": {
+          "$oid": "6a0584b31ab9839313f86178"
+        }
+      }
+    ],
+    "rentalDocuments": [
+      {
+        "updatedAt": {
+          "$date": "2026-05-14T08:15:47.430Z"
+        },
+        "value": {
+          "contentType": "application/pdf",
+          "key": "Rental Agreement.pdf",
+          "path": "rentalDocument/vyksinwnzhmdff2vyghc",
+          "url": "https://res.cloudinary.com/adil1010/image/upload/v1778746526/rentalDocument/vyksinwnzhmdff2vyghc.pdf",
+          "_id": {
+            "$oid": "6a0584b31ab9839313f8617a"
+          },
+          "createdAt": {
+            "$date": "2026-05-14T08:15:47.434Z"
+          }
+        },
+        "_id": {
+          "$oid": "6a0584b31ab9839313f86179"
+        }
+      }
+    ],
+    "annualRentGrowth": 5,
+    "insurance": 33,
+    "interest": 20,
+    "maxMaintenanceFee": 320,
+    "maxVacancyFee": 230,
+    "mortgage": 240,
+    "principal": 200,
+    "taxes": 20
+  },
+  "crowdSale": {
+    "isMogulEquityBought": false,
+    "numberOfTokens": 362340,
+    "startDate": {
+      "$date": "2026-05-14T18:30:00.000Z"
+    },
+    "stopDate": {
+      "$date": "2026-08-30T18:30:00.000Z"
+    },
+    "tokensForSale": 247190
+  },
+  "status": "OnSale",
+  "investorAccessStatus": false,
+  "underwriting": {
+    "monthlyRentalIncomeBase": 0,
+    "monthlyRentalIncomeBear": 0,
+    "monthlyRentalIncomeBull": 0,
+    "rentalIncomeGrowthRateBase": 0,
+    "rentalIncomeGrowthRateBear": 0,
+    "rentalIncomeGrowthRateBull": 0,
+    "yearlyPropertyTaxesBase": 0,
+    "hoaDuesBase": 0,
+    "homeownersInsuranceBase": 0,
+    "propertyManagementBase": 0,
+    "miscCostsBase": 0,
+    "expensesGrowthRateBase": 0,
+    "expensesGrowthRateBear": 0,
+    "expensesGrowthRateBull": 0,
+    "valueGrowthRateBase": 0,
+    "valueGrowthRateBear": 0,
+    "valueGrowthRateBull": 0,
+    "yearsBase": 0,
+    "yearsBear": 0,
+    "yearsBull": 0
+  },
+  "_createdBy": {
+    "$oid": "69fc1aa4dd5ec695061c1657"
+  },
+  "_updatedBy": {
+    "$oid": "69fc1aa4dd5ec695061c1657"
+  },
+  "buyProcess": [
+    {
+      "name": "Due Diligence",
+      "description": "Property is thoroughly vetted through inspection, conversations with property manager, Underwriting, Market Analysis, and Comparables Analysis. Offer is made.",
+      "date": {
+        "$date": "2026-04-30T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a05574d2caf888f226dd54b"
+      }
+    },
+    {
+      "name": "Under Contract",
+      "description": "Offer is accepted by seller with contingencies for minor repairs. Purchase Agreement is signed and due diligence materials are uploaded to the “documents” section.",
+      "date": {
+        "$date": "2026-05-03T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a05574d2caf888f226dd54c"
+      }
+    },
+    {
+      "name": "Raise",
+      "description": "Raise for equity purchase begins.",
+      "date": {
+        "$date": "2026-03-21T00:00:00.000Z"
+      },
+      "status": "Pending",
+      "_id": {
+        "$oid": "6a05574d2caf888f226dd54d"
+      }
+    }
+  ],
+  "investorAccessList": [],
+  "createdAt": {
+    "$date": "2026-05-14T07:33:07.019Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-15T08:02:34.847Z"
+  },
+  "blockchainAddress": "0x2F2e30fc5099cB0a0489E24F2C752a063B1ceA95",
+  "fireblocks": {
+    "vaultId": "18"
+  },
+  "mintedAt": {
+    "$date": "2026-05-14T08:17:58.383Z"
+  },
+  "rentalDocuments": [
+    {
+      "updatedAt": {
+        "$date": "2026-05-14T08:15:47.430Z"
+      },
+      "value": {
+        "contentType": "application/pdf",
+        "key": "Rental Agreement.pdf",
+        "path": "rentalDocument/Rental_Agreement_whhizy",
+        "url": "https://res.cloudinary.com/adil1010/image/upload/v1778749756/rentalDocument/Rental_Agreement_whhizy.pdf",
+        "createdAt": {
+          "$date": "2026-05-14T08:15:47.434Z"
+        },
+        "sizeInMegaByte": 0.00273
+      }
+    }
+  ]
+}]

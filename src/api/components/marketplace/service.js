@@ -1137,61 +1137,59 @@ export const listAssetsService = async (user, data) => {
   try {
     logger.info('Inside List Assets service service');
     let { search, page, limit } = data;
-    page = parseInt(page) ?? 1;
-    limit = parseInt(limit) ?? 10;
-    const priceParser = (fieldName) => {
-      return {
-        $convert: {
-          input: fieldName,
-          to: 'double',
-        },
-      };
-    };
-    const doc = await balanceModel.aggregate([
+    page = parseInt(page) || 1;
+    limit = parseInt(limit) || 10;
+
+    // Source the whole Assets list from the `payment` collection. Each
+    // payment carries the property it was for (propertyId/propertyName)
+    // and the tokens the user paid for (holdTokens). We count payments
+    // that are completed OR still in-progress (pending/posted) and
+    // exclude failed ones, then aggregate per property.
+    const doc = await Payment.aggregate([
       {
         $match: {
-          _user: user._id,
+          _user: ObjectId(user._id),
+          propertyId: { $ne: null },
+          investmentStatus: { $ne: 'failed' },
+          $or: [
+            { investmentStatus: { $in: ['completed', 'pending'] } },
+            { status: { $in: ['pending', 'posted'] } },
+          ],
         },
       },
-      // {
-      //   $lookup: {
-      //     from: 'property-transaction',
-      //     let: { propertyId: '$_property' },
-      //     pipeline: [
-      //       {
-      //         $match: {
-      //           $expr: {
-      //             $eq: ['$_property', '$$propertyId'],
-      //           },
-      //         },
-      //       },
-      //       {
-      //         $sort: {
-      //           createdAt: -1,
-      //         },
-      //       },
-      //       {
-      //         $limit: 1,
-      //       },
-      //       {
-      //         $project: {
-      //           price: 1,
-      //         },
-      //       },
-      //     ],
-      //     as: 'lastTx',
-      //   },
-      // },
-      // {
-      //   $unwind: {
-      //     path: '$lastTx',
-      //     preserveNullAndEmptyArrays: true,
-      //   },
-      // },
+      {
+        // One row per property: total tokens the user holds + a split
+        // of how many are still pending vs. completed.
+        $group: {
+          _id: '$propertyId',
+          tokens: { $sum: { $ifNull: ['$holdTokens', 0] } },
+          pendingTokens: {
+            $sum: {
+              $cond: [
+                { $eq: ['$investmentStatus', 'completed'] },
+                0,
+                { $ifNull: ['$holdTokens', 0] },
+              ],
+            },
+          },
+          amountPaid: {
+            $sum: {
+              $convert: {
+                input: '$amount.amount',
+                to: 'double',
+                onError: 0,
+                onNull: 0,
+              },
+            },
+          },
+          createdAt: { $min: '$createdAt' },
+          updatedAt: { $max: '$updatedAt' },
+        },
+      },
       {
         $lookup: {
           from: 'property',
-          let: { propertyId: '$_property' },
+          let: { propertyId: '$_id' },
           pipeline: [
             {
               $match: {
@@ -1235,12 +1233,13 @@ export const listAssetsService = async (user, data) => {
             },
             {
               $project: {
-                _property: 1,
+                _id: 0,
+                _property: '$_id',
                 tokens: 1,
+                pendingTokens: 1,
+                amountPaid: 1,
                 title: '$propertyDetails.otherInfo.title',
                 mainImage: '$propertyDetails.mainImage',
-                currentPrice: { $ifNull: ['$lastTx.price', '$avgPrice'] },
-                boughtAtPrice: '$avgPrice',
                 numberOfTokens: '$propertyDetails.crowdSale.numberOfTokens',
                 lastPropertyValue: {
                   $last: '$propertyDetails.financials.propertyValues.value',
@@ -1258,27 +1257,41 @@ export const listAssetsService = async (user, data) => {
 
     const fixResponse = { totalCount: doc[0].list.length, list: [] };
     fixResponse.list = doc[0].list
-      .sort((a, b) => b.updatedAt - a.updatedAt)
+      .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt))
       .slice((page - 1) * limit, (page - 1) * limit + limit);
 
+    const defaultMinInvestment = (await config.crowdSale).minInvestment;
+
     for (let i = 0; i < fixResponse.list.length; i++) {
-      if (!fixResponse.list[i].minInvestment) {
-        fixResponse.list[i].minInvestment = (
-          await config.crowdSale
-        ).minInvestment;
+      const row = fixResponse.list[i];
+
+      if (!row.minInvestment) {
+        row.minInvestment = defaultMinInvestment;
       }
-      let tokens = await tokensAtSold(fixResponse.list[i]._property);
-      fixResponse.list[i].tokensSold =
-        fixResponse.list[i].numberOfTokens - tokens;
-      fixResponse.list[i].tokensSoldPercentage = (
-        (fixResponse.list[i].tokensSold / fixResponse.list[i].numberOfTokens) *
-        100
-      ).toFixed(2);
-      fixResponse.list[i].currentPrice =
-        (fixResponse.list[i].lastPropertyValue -
-          fixResponse.list[i].currentDebt) /
-        fixResponse.list[i].numberOfTokens;
+
+      // Crowdsale progress (unchanged behaviour, kept for the frontend).
+      let tokens = await tokensAtSold(row._property);
+      row.tokensSold = row.numberOfTokens - tokens;
+      row.tokensSoldPercentage = row.numberOfTokens
+        ? ((row.tokensSold / row.numberOfTokens) * 100).toFixed(2)
+        : '0.00';
+
+      // Current price per token = (property value - debt) / total tokens.
+      row.currentPrice = row.numberOfTokens
+        ? (row.lastPropertyValue - row.currentDebt) / row.numberOfTokens
+        : 0;
+
+      // Balance ($) = the user's tokens valued at the current token price.
+      row.balanceTokens = row.tokens;
+      row.balanceValue = +(row.tokens * row.currentPrice).toFixed(2);
+
+      // Allocation = the user's share of this property
+      // (user's tokens / property's total tokens).
+      row.allocationPercentage = row.numberOfTokens
+        ? ((row.tokens / row.numberOfTokens) * 100).toFixed(2)
+        : '0.00';
     }
+
     return {
       totalCount: fixResponse.totalCount,
       value: fixResponse.list,
