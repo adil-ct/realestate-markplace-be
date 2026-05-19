@@ -1253,7 +1253,7 @@ export const listAssetsService = async (user, data) => {
           ],
         },
       },
-    ]);
+    ]).toArray();
 
     const fixResponse = { totalCount: doc[0].list.length, list: [] };
     fixResponse.list = doc[0].list
