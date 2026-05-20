@@ -2397,11 +2397,11 @@ export const getAllComparablePropertiesByPropertyId = async (propertyId) => {
 
     let list = propertyModel
       .find({
-        _id: { $in: uniqueIdsArray },
+        _id: { $in: uniqueIdsArray, $ne: propertyId },
       })
       .sort({ 'otherInfo.isTrending': -1 });
     let totalItems = propertyModel.countDocuments({
-      _id: { $in: uniqueIdsArray },
+      _id: { $in: uniqueIdsArray, $ne: propertyId },
     });
     [totalItems, list] = await Promise.all([totalItems, list.toArray()]);
     const result = [];
